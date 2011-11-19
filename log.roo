@@ -70,3 +70,5 @@ help cloud foundry
 // [failed] cloud foundry login --email mayorga.julian@gmail.com --password ukc2tu0g
 // [failed] cloud foundry login --email julesnikolai@gmail.com --password ukc2tu0g
 cloud foundry clear login details
+// [failed] cloud foundry login --email julesnikolai@gmail.com --password ukc2tu0g
+cloud foundry clear login details
