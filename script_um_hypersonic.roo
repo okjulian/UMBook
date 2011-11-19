@@ -1,6 +1,6 @@
-// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-11-19 15:23:27
 project --topLevelPackage com.umbook
 persistence setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY
+
 entity --class ~.server.domain.Album
 entity --class ~.server.domain.Foto
 entity --class ~.server.domain.Comentario --abstract
@@ -14,32 +14,43 @@ entity --class ~.server.domain.Denuncia
 entity --class ~.server.domain.Grupo
 entity --class ~.server.domain.Solicitud
 entity --class ~.server.domain.Amistad
+
 enum type --class ~.shared.domain.Generos
 enum constant --name FEMENINO
 enum constant --name MASCULINO
+
 enum type --class ~.shared.domain.Roles
 enum constant --name ADMINISTRADOR
 enum constant --name USUARIO
+
 field string --class ~.server.domain.Album --fieldName nombre --notNull 
 field string --fieldName descripcion
 field set --fieldName fotos --type ~.server.domain.Foto --cardinality ONE_TO_MANY --notNull false --mappedBy album
 field set --fieldName comentarios --type ~.server.domain.ComentarioAlbum --cardinality ONE_TO_MANY --mappedBy album
 field reference --fieldName usuario --type ~.server.domain.Usuario
+
 field string --class ~.server.domain.Foto --fieldName descripcion
 field string --fieldName ubicacion
 field set --fieldName comentarios --type ~.server.domain.ComentarioFoto --mappedBy foto --cardinality ONE_TO_MANY
 field reference --fieldName album --type ~.server.domain.Album
+
 field string --class ~.server.domain.Comentario --fieldName contenido
 field reference --fieldName emisor --type ~.server.domain.Usuario
+
 field reference --class ~.server.domain.ComentarioAlbum --fieldName album --type ~.server.domain.Album
+
 field reference --class ~.server.domain.ComentarioFoto --fieldName foto --type ~.server.domain.Foto
+
 field reference --class ~.server.domain.ComentarioPublicacion --fieldName foto --type ~.server.domain.Publicacion
+
 field string --class ~.server.domain.Publicacion --fieldName contenido --notNull
 field reference --fieldName emisor --type ~.server.domain.Usuario
 field reference --fieldName receptor --type ~.server.domain.Usuario
 field boolean --fieldName leida
+
 field reference --class ~.server.domain.Amistad --fieldName usuario_1 --type ~.server.domain.Usuario
 field reference --fieldName usuario_2 --type ~.server.domain.Usuario
+
 field string --class ~.server.domain.Usuario --fieldName nombre --notNull
 field string --fieldName apellido --notNull
 field string --fieldName correo_electronico --notNull
@@ -52,6 +63,7 @@ field string --fieldName foto_perfil
 field set --fieldName comentarios --type ~.server.domain.Comentario --cardinality ONE_TO_MANY --mappedBy emisor
 field set --fieldName publicaciones --type ~.server.domain.Publicacion --cardinality ONE_TO_MANY --mappedBy emisor
 field set --fieldName amistad --type ~.server.domain.Amistad --cardinality ONE_TO_MANY --mappedBy usuario_1
+
 controller all --package ~.web
+
 perform eclipse
-// script --file script_um_hypersonic.roo
