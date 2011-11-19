@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_umbook_server_domain_ComentarioPublicacion" modelAttribute="comentarioPublicacion" path="/comentariopublicacions" render="${empty dependencies}" z="bXUsFGwt/rvRr9A9Cn2Dp9JE9v4=">
+        <field:input field="contenido" id="c_com_umbook_server_domain_ComentarioPublicacion_contenido" z="A6jZR4L2zIyS+H94fFMRdJ0ZLvQ="/>
+        <field:select field="emisor" id="c_com_umbook_server_domain_ComentarioPublicacion_emisor" itemValue="id" items="${usuarios}" path="/usuarios" z="lNNkFjWe9caqJ44JssCjg/kM1hA="/>
+        <field:select field="foto" id="c_com_umbook_server_domain_ComentarioPublicacion_foto" itemValue="id" items="${publicacions}" path="/publicacions" z="PueS0b/rqUI+oJe2FKs+Oge7As8="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_umbook_server_domain_ComentarioPublicacion" render="${not empty dependencies}" z="qo0OXT3UfAyzAAm+GpBrBEl765M="/>
+</div>
