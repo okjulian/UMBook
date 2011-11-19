@@ -1,5 +1,6 @@
 package com.umbook.server.domain;
 
+import org.apache.commons.beanutils.converters.StringArrayConverter;
 import org.springframework.roo.addon.entity.RooEntity;
 import org.springframework.roo.addon.javabean.RooJavaBean;
 import org.springframework.roo.addon.tostring.RooToString;
