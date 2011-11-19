@@ -64,3 +64,4 @@ osgi obr url add --url http://spring-roo-repository.springsource.org/repository.
 osgi obr start --bundleSymbolicName org.springframework.roo.addon.cloud.foundry;1.1.5.RELEASE
 osgi obr url remove --url http://spring-roo-repository.springsource.org/repository.xml.zip
 addon install bundle --bundleSymbolicName org.springframework.roo.addon.cloud.foundry;1.1.5.RELEASE
+cloud foundry login 
