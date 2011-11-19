@@ -47,6 +47,7 @@ field string --class ~.server.domain.Publicacion --fieldName contenido --notNull
 field reference --fieldName emisor --type ~.server.domain.Usuario
 field reference --fieldName receptor --type ~.server.domain.Usuario
 field boolean --fieldName leida
+field set --fieldName comentarios --type ~.server.domain.ComentarioPublicacion --mappedBy publicacion --cardinality ONE_TO_MANY
 
 field reference --class ~.server.domain.Amistad --fieldName usuario_1 --type ~.server.domain.Usuario
 field reference --fieldName usuario_2 --type ~.server.domain.Usuario
