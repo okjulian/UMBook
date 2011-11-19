@@ -62,3 +62,4 @@ quit
 // Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-11-19 14:40:15
 osgi obr url add --url http://spring-roo-repository.springsource.org/repository.xml.zip
 osgi obr start --bundleSymbolicName org.springframework.roo.addon.cloud.foundry;1.1.5.RELEASE
+osgi obr url remove --url http://spring-roo-repository.springsource.org/repository.xml.zip
