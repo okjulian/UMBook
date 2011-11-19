@@ -1,4 +1,4 @@
-// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-11-19 15:23:27
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-11-19 19:03:37
 project --topLevelPackage com.umbook
 persistence setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY
 entity --class ~.server.domain.Album
@@ -33,11 +33,12 @@ field string --class ~.server.domain.Comentario --fieldName contenido
 field reference --fieldName emisor --type ~.server.domain.Usuario
 field reference --class ~.server.domain.ComentarioAlbum --fieldName album --type ~.server.domain.Album
 field reference --class ~.server.domain.ComentarioFoto --fieldName foto --type ~.server.domain.Foto
-field reference --class ~.server.domain.ComentarioPublicacion --fieldName foto --type ~.server.domain.Publicacion
+field reference --class ~.server.domain.ComentarioPublicacion --fieldName publicacion --type ~.server.domain.Publicacion
 field string --class ~.server.domain.Publicacion --fieldName contenido --notNull
 field reference --fieldName emisor --type ~.server.domain.Usuario
 field reference --fieldName receptor --type ~.server.domain.Usuario
 field boolean --fieldName leida
+field set --fieldName comentarios --type ~.server.domain.ComentarioPublicacion --mappedBy publicacion --cardinality ONE_TO_MANY
 field reference --class ~.server.domain.Amistad --fieldName usuario_1 --type ~.server.domain.Usuario
 field reference --fieldName usuario_2 --type ~.server.domain.Usuario
 field string --class ~.server.domain.Usuario --fieldName nombre --notNull
@@ -56,24 +57,4 @@ controller all --package ~.web
 perform eclipse
 // script --file script_um_hypersonic.roo
 quit
-// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-11-19 15:29:55
-// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-11-19 15:34:47
-cloud foundry login --email julesnikolai@gmail.com --password FAFSPK5H
-cloud foundry deploy --appName UMBook --path CREATE
-cloud foundry list apps
-cloud foundry unbind service --serviceName misql --appName UMBook
-cloud foundry stop app --appName UMBook
-cloud foundry start app --appName UMBook
-cloud foundry update app memory --appName UMBook --memSize 1024MB
-cloud foundry stop app --appName UMBook
-cloud foundry list apps
-cloud foundry start app --appName UMBook
-quit
-// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-11-19 16:25:27
-// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-11-19 16:27:51
-quit
-// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-11-19 16:28:23
-// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-11-19 17:39:26
-hint
-quit
-// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-11-19 17:40:32
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-11-19 19:07:40

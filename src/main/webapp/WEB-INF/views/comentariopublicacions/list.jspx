@@ -6,7 +6,7 @@
         <table:table data="${comentariopublicacions}" id="l_com_umbook_server_domain_ComentarioPublicacion" path="/comentariopublicacions" z="kw5r3uA2LRpWfebt4jn5o6hLbiQ=">
             <table:column id="c_com_umbook_server_domain_ComentarioPublicacion_contenido" property="contenido" z="bxE72MDFPM/eKinrjbs2MIv4edc="/>
             <table:column id="c_com_umbook_server_domain_ComentarioPublicacion_emisor" property="emisor" z="AXZjGVYTZNMCcjxQbDnDOKPKKT8="/>
-            <table:column id="c_com_umbook_server_domain_ComentarioPublicacion_foto" property="foto" z="8VWeEEqSfw3kOKR00x8ab/Li+MI="/>
+            <table:column id="c_com_umbook_server_domain_ComentarioPublicacion_publicacion" property="publicacion" z="n7g8+QxBnA0EUQb2Wkt89a0pmNI="/>
         </table:table>
     </page:list>
 </div>

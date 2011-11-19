@@ -5,6 +5,6 @@
     <form:update id="fu_com_umbook_server_domain_ComentarioPublicacion" modelAttribute="comentarioPublicacion" path="/comentariopublicacions" versionField="Version" z="vgCUPn56e24plF+hhNq1nB9DwZg=">
         <field:input field="contenido" id="c_com_umbook_server_domain_ComentarioPublicacion_contenido" z="A6jZR4L2zIyS+H94fFMRdJ0ZLvQ="/>
         <field:select field="emisor" id="c_com_umbook_server_domain_ComentarioPublicacion_emisor" itemValue="id" items="${usuarios}" path="/usuarios" z="lNNkFjWe9caqJ44JssCjg/kM1hA="/>
-        <field:select field="foto" id="c_com_umbook_server_domain_ComentarioPublicacion_foto" itemValue="id" items="${publicacions}" path="/publicacions" z="PueS0b/rqUI+oJe2FKs+Oge7As8="/>
+        <field:select field="publicacion" id="c_com_umbook_server_domain_ComentarioPublicacion_publicacion" itemValue="id" items="${publicacions}" path="/publicacions" z="ac9sl3jvSsJecFuAEJZ4WWDnS58="/>
     </form:update>
 </div>

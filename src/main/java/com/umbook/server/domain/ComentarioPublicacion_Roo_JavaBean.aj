@@ -7,12 +7,12 @@ import com.umbook.server.domain.Publicacion;
 
 privileged aspect ComentarioPublicacion_Roo_JavaBean {
     
-    public Publicacion ComentarioPublicacion.getFoto() {
-        return this.foto;
+    public Publicacion ComentarioPublicacion.getPublicacion() {
+        return this.publicacion;
     }
     
-    public void ComentarioPublicacion.setFoto(Publicacion foto) {
-        this.foto = foto;
+    public void ComentarioPublicacion.setPublicacion(Publicacion publicacion) {
+        this.publicacion = publicacion;
     }
     
 }

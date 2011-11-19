@@ -1,17 +1,16 @@
 package com.umbook.server.domain;
 
-import java.util.HashSet;
-import java.util.Set;
-
 import org.springframework.roo.addon.entity.RooEntity;
 import org.springframework.roo.addon.javabean.RooJavaBean;
 import org.springframework.roo.addon.tostring.RooToString;
 import javax.validation.constraints.NotNull;
 import com.umbook.server.domain.Usuario;
-
-import javax.persistence.CascadeType;
 import javax.persistence.ManyToOne;
+import java.util.Set;
+import com.umbook.server.domain.ComentarioPublicacion;
+import java.util.HashSet;
 import javax.persistence.OneToMany;
+import javax.persistence.CascadeType;
 
 @RooJavaBean
 @RooToString
@@ -26,9 +25,9 @@ public class Publicacion {
 
     @ManyToOne
     private Usuario receptor;
-    
-    @OneToMany(cascade = CascadeType.ALL, mappedBy = "publicacion")
-    private Set<ComentarioPublicacion> comentarios = new HashSet<ComentarioPublicacion>();
 
     private Boolean leida;
+
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "publicacion")
+    private Set<ComentarioPublicacion> comentarios = new HashSet<ComentarioPublicacion>();
 }

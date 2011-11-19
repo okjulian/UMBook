@@ -12,5 +12,5 @@ import javax.persistence.ManyToOne;
 public class ComentarioPublicacion extends Comentario {
 
     @ManyToOne
-    private Publicacion foto;
+    private Publicacion publicacion;
 }

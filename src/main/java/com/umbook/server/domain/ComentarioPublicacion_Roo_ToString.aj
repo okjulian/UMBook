@@ -11,8 +11,8 @@ privileged aspect ComentarioPublicacion_Roo_ToString {
         StringBuilder sb = new StringBuilder();
         sb.append("Contenido: ").append(getContenido()).append(", ");
         sb.append("Emisor: ").append(getEmisor()).append(", ");
-        sb.append("Foto: ").append(getFoto()).append(", ");
         sb.append("Id: ").append(getId()).append(", ");
+        sb.append("Publicacion: ").append(getPublicacion()).append(", ");
         sb.append("Version: ").append(getVersion());
         return sb.toString();
     }

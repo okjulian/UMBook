@@ -35,20 +35,20 @@ privileged aspect Publicacion_Roo_JavaBean {
         this.receptor = receptor;
     }
     
-    public Set<ComentarioPublicacion> Publicacion.getComentarios() {
-        return this.comentarios;
-    }
-    
-    public void Publicacion.setComentarios(Set<ComentarioPublicacion> comentarios) {
-        this.comentarios = comentarios;
-    }
-    
     public Boolean Publicacion.getLeida() {
         return this.leida;
     }
     
     public void Publicacion.setLeida(Boolean leida) {
         this.leida = leida;
+    }
+    
+    public Set<ComentarioPublicacion> Publicacion.getComentarios() {
+        return this.comentarios;
+    }
+    
+    public void Publicacion.setComentarios(Set<ComentarioPublicacion> comentarios) {
+        this.comentarios = comentarios;
     }
     
 }
