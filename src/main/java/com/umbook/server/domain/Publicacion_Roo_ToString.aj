@@ -9,6 +9,7 @@ privileged aspect Publicacion_Roo_ToString {
     
     public String Publicacion.toString() {
         StringBuilder sb = new StringBuilder();
+        sb.append("Comentarios: ").append(getComentarios() == null ? "null" : getComentarios().size()).append(", ");
         sb.append("Contenido: ").append(getContenido()).append(", ");
         sb.append("Emisor: ").append(getEmisor()).append(", ");
         sb.append("Id: ").append(getId()).append(", ");

@@ -7,6 +7,7 @@
         <field:select field="emisor" id="c_com_umbook_server_domain_Publicacion_emisor" itemValue="id" items="${usuarios}" path="/usuarios" z="0M9sb3q3lSdXNu9xi77sp1idpxU="/>
         <field:select field="receptor" id="c_com_umbook_server_domain_Publicacion_receptor" itemValue="id" items="${usuarios}" path="/usuarios" z="MbJsz3sQIgF9Vu/rKd5jPMxbK0Y="/>
         <field:checkbox field="leida" id="c_com_umbook_server_domain_Publicacion_leida" z="CVMV+3NbabB4xjyEwR4Y+bFWAy4="/>
+        <field:simple field="comentarios" id="c_com_umbook_server_domain_Publicacion_comentarios" messageCode="entity_reference_not_managed" messageCodeAttribute="Comentario Publicacion" z="xJD9jNUW7w0+UmI4h4gKmOfuk9Y="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_com_umbook_server_domain_Publicacion" render="${not empty dependencies}" z="DXRO1JI6LCV4P1dlyQHBVKyNXZo="/>
 </div>

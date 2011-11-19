@@ -3,6 +3,7 @@
 
 package com.umbook.web;
 
+import com.umbook.server.domain.ComentarioPublicacion;
 import com.umbook.server.domain.Publicacion;
 import com.umbook.server.domain.Usuario;
 import java.io.UnsupportedEncodingException;
@@ -85,6 +86,11 @@ privileged aspect PublicacionController_Roo_Controller {
         uiModel.addAttribute("page", (page == null) ? "1" : page.toString());
         uiModel.addAttribute("size", (size == null) ? "10" : size.toString());
         return "redirect:/publicacions";
+    }
+    
+    @ModelAttribute("comentariopublicacions")
+    public Collection<ComentarioPublicacion> PublicacionController.populateComentarioPublicacions() {
+        return ComentarioPublicacion.findAllComentarioPublicacions();
     }
     
     @ModelAttribute("publicacions")

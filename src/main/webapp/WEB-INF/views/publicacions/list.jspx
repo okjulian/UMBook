@@ -8,6 +8,7 @@
             <table:column id="c_com_umbook_server_domain_Publicacion_emisor" property="emisor" z="k3F9tvuCHGSEdK42jYWdyCDcXhw="/>
             <table:column id="c_com_umbook_server_domain_Publicacion_receptor" property="receptor" z="1oeeqiHlUTP+WFmEFDqx+KXleGc="/>
             <table:column id="c_com_umbook_server_domain_Publicacion_leida" property="leida" z="YpUba/XQPQZzSYHjIpZ5qbzFGrU="/>
+            <table:column id="c_com_umbook_server_domain_Publicacion_comentarios" property="comentarios" z="1BjYMvXUWhhwLTyqo+Kgsjd/Dto="/>
         </table:table>
     </page:list>
 </div>

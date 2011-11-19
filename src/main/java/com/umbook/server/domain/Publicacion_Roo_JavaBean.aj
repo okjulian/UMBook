@@ -3,9 +3,11 @@
 
 package com.umbook.server.domain;
 
+import com.umbook.server.domain.ComentarioPublicacion;
 import com.umbook.server.domain.Usuario;
 import java.lang.Boolean;
 import java.lang.String;
+import java.util.Set;
 
 privileged aspect Publicacion_Roo_JavaBean {
     
@@ -31,6 +33,14 @@ privileged aspect Publicacion_Roo_JavaBean {
     
     public void Publicacion.setReceptor(Usuario receptor) {
         this.receptor = receptor;
+    }
+    
+    public Set<ComentarioPublicacion> Publicacion.getComentarios() {
+        return this.comentarios;
+    }
+    
+    public void Publicacion.setComentarios(Set<ComentarioPublicacion> comentarios) {
+        this.comentarios = comentarios;
     }
     
     public Boolean Publicacion.getLeida() {
