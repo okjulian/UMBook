@@ -41,7 +41,7 @@ field reference --class ~.server.domain.ComentarioAlbum --fieldName album --type
 
 field reference --class ~.server.domain.ComentarioFoto --fieldName foto --type ~.server.domain.Foto
 
-field reference --class ~.server.domain.ComentarioPublicacion --fieldName foto --type ~.server.domain.Publicacion
+field reference --class ~.server.domain.ComentarioPublicacion --fieldName publicacion --type ~.server.domain.Publicacion
 
 field string --class ~.server.domain.Publicacion --fieldName contenido --notNull
 field reference --fieldName emisor --type ~.server.domain.Usuario

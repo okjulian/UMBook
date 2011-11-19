@@ -55,3 +55,16 @@ field set --fieldName amistad --type ~.server.domain.Amistad --cardinality ONE_T
 controller all --package ~.web
 perform eclipse
 // script --file script_um_hypersonic.roo
+quit
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-11-19 15:29:55
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-11-19 15:34:47
+cloud foundry login --email julesnikolai@gmail.com --password FAFSPK5H
+cloud foundry deploy --appName UMBook --path CREATE
+cloud foundry list apps
+cloud foundry unbind service --serviceName misql --appName UMBook
+cloud foundry stop app --appName UMBook
+cloud foundry start app --appName UMBook
+cloud foundry update app memory --appName UMBook --memSize 1024MB
+cloud foundry stop app --appName UMBook
+cloud foundry list apps
+cloud foundry start app --appName UMBook
