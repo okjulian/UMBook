@@ -81,3 +81,11 @@ perform eclipse
 hint
 quit
 // Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-11-20 10:17:38
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-11-20 10:42:59
+cloud foundry login --email julesnikolai@gmail.com
+cloud foundry deploy --appName UMBook --path CREATE
+cloud foundry list apps
+cloud foundry stop app --appName UMBook
+cloud foundry start app --appName UMBook
+quit
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-11-20 11:37:31
