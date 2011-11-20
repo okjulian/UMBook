@@ -58,3 +58,19 @@ perform eclipse
 // script --file script_um_hypersonic.roo
 quit
 // Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-11-19 19:07:40
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-11-19 19:35:36
+cloud foundry login --email julesnikolai@gmail.com --password FAFSPK5H
+cloud foundry list apps
+cloud foundry stop app --appName UMBook
+cloud foundry deploy --appName UMBook --path CREATE
+cloud foundry start app --appName UMBook
+cloud foundry list apps
+// [failed] cloud foundry update app memory --appName UMBook --memSize 2048MB
+cloud foundry update app memory --appName UMBook --memSize 1024MB
+quit
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-11-19 21:11:24
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-11-19 21:54:58
+addon list
+quit
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-11-19 22:01:33
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-11-20 09:08:36
