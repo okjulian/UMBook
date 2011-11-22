@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_umbook_server_domain_Usuario" object="${usuario}" path="/usuarios" z="Ia/ishuaG4wOLz1knOUurMuoMk4=">
+        <field:display field="nombre" id="s_com_umbook_server_domain_Usuario_nombre" object="${usuario}" z="TjAWrB8w+AMPZBvIvj8f+brE/dc="/>
+        <field:display field="apellido" id="s_com_umbook_server_domain_Usuario_apellido" object="${usuario}" z="04r3QPZq4w//t3zrJWXANfyrfYc="/>
+        <field:display field="correo_electronico" id="s_com_umbook_server_domain_Usuario_correo_electronico" object="${usuario}" z="kKBYWqjckwXZ+V6kCpPXp9l8Xkw="/>
+        <field:display field="contrasena" id="s_com_umbook_server_domain_Usuario_contrasena" object="${usuario}" z="fe/MLFKG3u7bDxxrzFdC3TDWVFw="/>
+        <field:display field="sexo" id="s_com_umbook_server_domain_Usuario_sexo" object="${usuario}" z="50TODTQU5EZ55inwoaRRPQ9cpEU="/>
+        <field:display field="pregunta_secreta" id="s_com_umbook_server_domain_Usuario_pregunta_secreta" object="${usuario}" z="od27cdC2zcZE5xjYn1oFiJ/DL8I="/>
+        <field:display field="rol" id="s_com_umbook_server_domain_Usuario_rol" object="${usuario}" z="so8sXNL1AUIaDH7AQ+kKNbmd3Xs="/>
+        <field:display field="estado" id="s_com_umbook_server_domain_Usuario_estado" object="${usuario}" z="HJkLSHa0KpRCQCSbonhW5j5/91U="/>
+        <field:display field="foto_perfil" id="s_com_umbook_server_domain_Usuario_foto_perfil" object="${usuario}" z="8NhA5rCZrSCH3yr5GmDgY4al/18="/>
+    </page:show>
+</div>
