@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:find finderName="ByAlbum" id="ff_com_umbook_server_domain_ComentarioAlbum" path="/comentarioalbums" z="Ycjfi+RvoNsSpz/iYQvglTjI71I=">
+        <field:select disableFormBinding="true" field="album" id="f_com_umbook_server_domain_ComentarioAlbum_album" itemValue="id" items="${albums}" path="/albums" required="true" z="y1n3XmQDXFMGDMGeJCf2ogql83s="/>
+    </form:find>
+</div>

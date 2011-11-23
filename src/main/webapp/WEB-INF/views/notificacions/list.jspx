@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_umbook_server_domain_Notificacion" items="${notificacions}" z="dTF9MhA9Pup3xcz7PSwI5PjcJQ4=">
+        <table:table data="${notificacions}" id="l_com_umbook_server_domain_Notificacion" path="/notificacions" z="hBX19mutfVzglJFuDnWpl/E5ylc=">
+            <table:column id="c_com_umbook_server_domain_Notificacion_contenido" property="contenido" z="mUHpk24lkcLunu+xIepO8Q8Hac0="/>
+            <table:column id="c_com_umbook_server_domain_Notificacion_leida" property="leida" z="/1bClFxi5bSj62XqdyCgDgMk4ZY="/>
+            <table:column id="c_com_umbook_server_domain_Notificacion_emisor" property="emisor" z="ByuoMXTBtp012uiVhoNC3moK/P0="/>
+            <table:column id="c_com_umbook_server_domain_Notificacion_receptor" property="receptor" z="R8ciD0ftjkcLdhgGUXRlJFKqW3E="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_umbook_server_domain_Denuncia" items="${denuncias}" z="osvucJhLZFXhmqDLDlJ8wgGKHZs=">
+        <table:table data="${denuncias}" id="l_com_umbook_server_domain_Denuncia" path="/denuncias" z="5TXf7V27cGZr0wmwb/i/MfTy4vo=">
+            <table:column id="c_com_umbook_server_domain_Denuncia_contenido" property="contenido" z="TqTHCJt3skcQgdwWYA18AiFibh4="/>
+            <table:column id="c_com_umbook_server_domain_Denuncia_leida" property="leida" z="LCBygm8YMKopen16mt7LMenjAjM="/>
+            <table:column id="c_com_umbook_server_domain_Denuncia_emisor" property="emisor" z="BdOk4SWGC/EruqBwZNgS0gFLg2E="/>
+            <table:column id="c_com_umbook_server_domain_Denuncia_receptor" property="receptor" z="GXIQBBGArBo94S5uBDeRyO9CZ2M="/>
+        </table:table>
+    </page:list>
+</div>

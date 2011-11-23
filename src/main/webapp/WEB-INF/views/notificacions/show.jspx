@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_umbook_server_domain_Notificacion" object="${notificacion}" path="/notificacions" z="KMa3JTsTrn/V4uNQhn2XiJWz68Y=">
+        <field:display field="contenido" id="s_com_umbook_server_domain_Notificacion_contenido" object="${notificacion}" z="lCEYrutFmh2SxrdzBuWOU9cwBes="/>
+        <field:display field="leida" id="s_com_umbook_server_domain_Notificacion_leida" object="${notificacion}" z="nhzMmfyR4eThCLu9am3t6S57VmI="/>
+        <field:display field="emisor" id="s_com_umbook_server_domain_Notificacion_emisor" object="${notificacion}" z="JuaLmqpjxuW/7mA+CWOccc+nsEk="/>
+        <field:display field="receptor" id="s_com_umbook_server_domain_Notificacion_receptor" object="${notificacion}" z="W6uA5WpTqbBqozOitYY7naYj4ik="/>
+    </page:show>
+</div>

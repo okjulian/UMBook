@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_umbook_server_domain_ComentarioFoto" items="${comentariofotoes}" z="UFh/6f5YoS+i9V8+IJrW/h9qlfw=">
+        <table:table data="${comentariofotoes}" id="l_com_umbook_server_domain_ComentarioFoto" path="/comentariofotoes" z="d4SZ7//IsaTc5Q9GJqAgwdUOyio=">
+            <table:column id="c_com_umbook_server_domain_ComentarioFoto_contenido" property="contenido" z="N51mN1yNZPbOrnTfaWC3Y8DRJ2s="/>
+            <table:column id="c_com_umbook_server_domain_ComentarioFoto_emisor" property="emisor" z="rEiwiuF2MSGoDaw2I/8unVrnSLw="/>
+            <table:column id="c_com_umbook_server_domain_ComentarioFoto_foto" property="foto" z="CqVz3OXtPFhmGlxpbcZ4D+YAr4Y="/>
+        </table:table>
+    </page:list>
+</div>

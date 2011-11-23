@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_umbook_server_domain_Publicacion" object="${publicacion}" path="/publicacions" z="bZmRd1I5lDEHEPiZw6qNNYZSqZI=">
+        <field:display field="contenido" id="s_com_umbook_server_domain_Publicacion_contenido" object="${publicacion}" z="xW9VSdF/yOpdf2Ow1UBJFPzCaT8="/>
+        <field:display field="emisor" id="s_com_umbook_server_domain_Publicacion_emisor" object="${publicacion}" z="FxhGA31wlcfogpcRHpuU9XWXRtQ="/>
+        <field:display field="receptor" id="s_com_umbook_server_domain_Publicacion_receptor" object="${publicacion}" z="0hVeeMU2a/zMQEG/40j9ICJ1X1Y="/>
+        <field:display field="leida" id="s_com_umbook_server_domain_Publicacion_leida" object="${publicacion}" z="e31lEGi/EfYK5+8THw8vwciOjBE="/>
+    </page:show>
+</div>
