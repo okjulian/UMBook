@@ -5,8 +5,11 @@ package com.umbook.web;
 
 import com.umbook.server.domain.Amistad;
 import com.umbook.server.domain.Comentario;
+import com.umbook.server.domain.Denuncia;
+import com.umbook.server.domain.Notificacion;
 import com.umbook.server.domain.Publicacion;
 import com.umbook.server.domain.Usuario;
+import com.umbook.shared.domain.EstadosUsuario;
 import com.umbook.shared.domain.Generos;
 import com.umbook.shared.domain.Roles;
 import java.io.UnsupportedEncodingException;
@@ -102,6 +105,16 @@ privileged aspect UsuarioController_Roo_Controller {
         return Comentario.findAllComentarios();
     }
     
+    @ModelAttribute("denuncias")
+    public Collection<Denuncia> UsuarioController.populateDenuncias() {
+        return Denuncia.findAllDenuncias();
+    }
+    
+    @ModelAttribute("notificacions")
+    public Collection<Notificacion> UsuarioController.populateNotificacions() {
+        return Notificacion.findAllNotificacions();
+    }
+    
     @ModelAttribute("publicacions")
     public Collection<Publicacion> UsuarioController.populatePublicacions() {
         return Publicacion.findAllPublicacions();
@@ -110,6 +123,11 @@ privileged aspect UsuarioController_Roo_Controller {
     @ModelAttribute("usuarios")
     public Collection<Usuario> UsuarioController.populateUsuarios() {
         return Usuario.findAllUsuarios();
+    }
+    
+    @ModelAttribute("estadosusuarios")
+    public Collection<EstadosUsuario> UsuarioController.populateEstadosUsuarios() {
+        return Arrays.asList(EstadosUsuario.class.getEnumConstants());
     }
     
     @ModelAttribute("generoses")

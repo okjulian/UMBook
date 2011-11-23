@@ -12,25 +12,23 @@
         <logout logout-url="/resources/j_spring_security_logout"/>
         
         <!-- Configure these elements to secure URIs in your application -->
-        <intercept-url pattern="/usuarios/**" access="hasRole('ROLE_ADMIN')"/>
-        <intercept-url pattern="/amistads/**" access="hasRole('ROLE_ADMIN')"/>
-        <intercept-url pattern="/comentariopublicacions/**" access="permitAll" />
-        <intercept-url pattern="/comentariofotos/**" access="permitAll" />
-        <intercept-url pattern="/comentarioalbums/**" access="permitAll" />
-        <intercept-url pattern="/publicacion/**" access="permitAll" />
-        <intercept-url pattern="/album/**" access="permitAll" />
-        <intercept-url pattern="/foto/**" access="permitAll" />
+        <intercept-url pattern="/choices/**" access="hasRole('ROLE_ADMIN')"/>
+        <intercept-url pattern="/member/**" access="isAuthenticated()" />
+        <intercept-url pattern="/resources/**" access="permitAll" />
+        <intercept-url pattern="/" access="permitAll" />
+        <intercept-url pattern="/login/**" access="permitAll" />
+        <intercept-url pattern="/albums**" access="isAuthenticated()" />
+        <intercept-url pattern="/**" access="permitAll" />
     </http>
 
 	<!-- Configure Authentication mechanism -->
     <authentication-manager alias="authenticationManager">
     	<!-- SHA-256 values can be produced using 'echo -n your_desired_password | sha256sum' (using normal *nix environments) -->
     	<authentication-provider>
-	    	<password-encoder hash="sha-256"/>
-	        <user-service>
-	            <user name="admin" password="8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918" authorities="ROLE_ADMIN"/>
-		        <user name="user" password="04f8996da763b7a969b1028ee3007569eaf3a635486ddab211d512c85b9df8fb" authorities="ROLE_USER"/>
-		    </user-service>
+	        <jdbc-user-service
+    data-source-ref="dataSource"
+    users-by-username-query="SELECT U.nombre_usuario AS username, U.contrasena as password, U.estado = 'ACTIVE' FROM usuario U where U.nombre_usuario=?"
+    authorities-by-username-query="SELECT U.nombre_usuario as username, U.estado as authority FROM usuario U WHERE U.nombre_usuario=?" />
     	</authentication-provider>
 	</authentication-manager>
 

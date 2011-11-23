@@ -4,6 +4,7 @@
 package com.umbook.web;
 
 import com.umbook.server.domain.Denuncia;
+import com.umbook.server.domain.Usuario;
 import java.io.UnsupportedEncodingException;
 import java.lang.Integer;
 import java.lang.Long;
@@ -89,6 +90,11 @@ privileged aspect DenunciaController_Roo_Controller {
     @ModelAttribute("denuncias")
     public Collection<Denuncia> DenunciaController.populateDenuncias() {
         return Denuncia.findAllDenuncias();
+    }
+    
+    @ModelAttribute("usuarios")
+    public Collection<Usuario> DenunciaController.populateUsuarios() {
+        return Usuario.findAllUsuarios();
     }
     
     String DenunciaController.encodeUrlPathSegment(String pathSegment, HttpServletRequest httpServletRequest) {

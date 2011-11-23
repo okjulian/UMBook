@@ -8,7 +8,7 @@ import javax.persistence.ManyToOne;
 
 @RooJavaBean
 @RooToString
-@RooEntity
+@RooEntity(finders = { "findComentarioPublicacionsByPublicacion" })
 public class ComentarioPublicacion extends Comentario {
 
     @ManyToOne

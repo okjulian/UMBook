@@ -13,4 +13,7 @@
 <definition extends="default" name="comentariofotoes/update">
         <put-attribute name="body" value="/WEB-INF/views/comentariofotoes/update.jspx"/>
     </definition>
+<definition extends="default" name="comentariofotoes/findComentarioFotoesByFoto">
+        <put-attribute name="body" value="/WEB-INF/views/comentariofotoes/findComentarioFotoesByFoto.jspx"/>
+    </definition>
 </tiles-definitions>

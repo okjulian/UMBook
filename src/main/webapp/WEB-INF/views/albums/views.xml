@@ -13,4 +13,7 @@
 <definition extends="default" name="albums/update">
         <put-attribute name="body" value="/WEB-INF/views/albums/update.jspx"/>
     </definition>
+<definition extends="default" name="albums/findAlbumsByUsuario">
+        <put-attribute name="body" value="/WEB-INF/views/albums/findAlbumsByUsuario.jspx"/>
+    </definition>
 </tiles-definitions>

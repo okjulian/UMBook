@@ -13,4 +13,7 @@
 <definition extends="default" name="comentariopublicacions/update">
         <put-attribute name="body" value="/WEB-INF/views/comentariopublicacions/update.jspx"/>
     </definition>
+<definition extends="default" name="comentariopublicacions/findComentarioPublicacionsByPublicacion">
+        <put-attribute name="body" value="/WEB-INF/views/comentariopublicacions/findComentarioPublicacionsByPublicacion.jspx"/>
+    </definition>
 </tiles-definitions>

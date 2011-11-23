@@ -4,6 +4,7 @@
 package com.umbook.web;
 
 import com.umbook.server.domain.Notificacion;
+import com.umbook.server.domain.Usuario;
 import java.io.UnsupportedEncodingException;
 import java.lang.Integer;
 import java.lang.Long;
@@ -89,6 +90,11 @@ privileged aspect NotificacionController_Roo_Controller {
     @ModelAttribute("notificacions")
     public Collection<Notificacion> NotificacionController.populateNotificacions() {
         return Notificacion.findAllNotificacions();
+    }
+    
+    @ModelAttribute("usuarios")
+    public Collection<Usuario> NotificacionController.populateUsuarios() {
+        return Usuario.findAllUsuarios();
     }
     
     String NotificacionController.encodeUrlPathSegment(String pathSegment, HttpServletRequest httpServletRequest) {

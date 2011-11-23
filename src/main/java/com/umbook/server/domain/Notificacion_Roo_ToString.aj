@@ -9,7 +9,11 @@ privileged aspect Notificacion_Roo_ToString {
     
     public String Notificacion.toString() {
         StringBuilder sb = new StringBuilder();
+        sb.append("Contenido: ").append(getContenido()).append(", ");
+        sb.append("Emisor: ").append(getEmisor()).append(", ");
         sb.append("Id: ").append(getId()).append(", ");
+        sb.append("Leida: ").append(getLeida()).append(", ");
+        sb.append("Receptor: ").append(getReceptor()).append(", ");
         sb.append("Version: ").append(getVersion());
         return sb.toString();
     }

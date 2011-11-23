@@ -13,7 +13,7 @@ import javax.persistence.ManyToOne;
 
 @RooJavaBean
 @RooToString
-@RooEntity
+@RooEntity(finders = { "findFotoesByAlbum" })
 public class Foto {
 
     private String descripcion;

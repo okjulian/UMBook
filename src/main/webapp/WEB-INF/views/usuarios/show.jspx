@@ -4,13 +4,15 @@
     <jsp:output omit-xml-declaration="yes"/>
     <page:show id="ps_com_umbook_server_domain_Usuario" object="${usuario}" path="/usuarios" z="Ia/ishuaG4wOLz1knOUurMuoMk4=">
         <field:display field="nombre" id="s_com_umbook_server_domain_Usuario_nombre" object="${usuario}" z="TjAWrB8w+AMPZBvIvj8f+brE/dc="/>
+        <field:display field="nombre_usuario" id="s_com_umbook_server_domain_Usuario_nombre_usuario" object="${usuario}" z="wVru2uyTKyuLzRi0lqhji2+R03M="/>
         <field:display field="apellido" id="s_com_umbook_server_domain_Usuario_apellido" object="${usuario}" z="04r3QPZq4w//t3zrJWXANfyrfYc="/>
         <field:display field="correo_electronico" id="s_com_umbook_server_domain_Usuario_correo_electronico" object="${usuario}" z="kKBYWqjckwXZ+V6kCpPXp9l8Xkw="/>
         <field:display field="contrasena" id="s_com_umbook_server_domain_Usuario_contrasena" object="${usuario}" z="fe/MLFKG3u7bDxxrzFdC3TDWVFw="/>
         <field:display field="sexo" id="s_com_umbook_server_domain_Usuario_sexo" object="${usuario}" z="50TODTQU5EZ55inwoaRRPQ9cpEU="/>
         <field:display field="pregunta_secreta" id="s_com_umbook_server_domain_Usuario_pregunta_secreta" object="${usuario}" z="od27cdC2zcZE5xjYn1oFiJ/DL8I="/>
+        <field:display field="respuesta_secreta" id="s_com_umbook_server_domain_Usuario_respuesta_secreta" object="${usuario}" z="UWQLYfaymSO/DbJP4yiidzQmEug="/>
         <field:display field="rol" id="s_com_umbook_server_domain_Usuario_rol" object="${usuario}" z="so8sXNL1AUIaDH7AQ+kKNbmd3Xs="/>
-        <field:display field="estado" id="s_com_umbook_server_domain_Usuario_estado" object="${usuario}" z="HJkLSHa0KpRCQCSbonhW5j5/91U="/>
         <field:display field="foto_perfil" id="s_com_umbook_server_domain_Usuario_foto_perfil" object="${usuario}" z="8NhA5rCZrSCH3yr5GmDgY4al/18="/>
+        <field:display field="estado" id="s_com_umbook_server_domain_Usuario_estado" object="${usuario}" z="HJkLSHa0KpRCQCSbonhW5j5/91U="/>
     </page:show>
 </div>

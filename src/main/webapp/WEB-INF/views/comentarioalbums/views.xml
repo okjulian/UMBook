@@ -13,4 +13,7 @@
 <definition extends="default" name="comentarioalbums/update">
         <put-attribute name="body" value="/WEB-INF/views/comentarioalbums/update.jspx"/>
     </definition>
+<definition extends="default" name="comentarioalbums/findComentarioAlbumsByAlbum">
+        <put-attribute name="body" value="/WEB-INF/views/comentarioalbums/findComentarioAlbumsByAlbum.jspx"/>
+    </definition>
 </tiles-definitions>

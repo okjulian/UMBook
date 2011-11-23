@@ -8,7 +8,7 @@ import javax.persistence.ManyToOne;
 
 @RooJavaBean
 @RooToString
-@RooEntity
+@RooEntity(finders = { "findAmistadsByUsuario_1", "findAmistadsByUsuario_2" })
 public class Amistad {
 
     @ManyToOne

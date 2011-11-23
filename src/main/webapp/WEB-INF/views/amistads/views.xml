@@ -13,4 +13,10 @@
 <definition extends="default" name="amistads/update">
         <put-attribute name="body" value="/WEB-INF/views/amistads/update.jspx"/>
     </definition>
+<definition extends="default" name="amistads/findAmistadsByUsuario_1">
+        <put-attribute name="body" value="/WEB-INF/views/amistads/findAmistadsByUsuario_1.jspx"/>
+    </definition>
+<definition extends="default" name="amistads/findAmistadsByUsuario_2">
+        <put-attribute name="body" value="/WEB-INF/views/amistads/findAmistadsByUsuario_2.jspx"/>
+    </definition>
 </tiles-definitions>

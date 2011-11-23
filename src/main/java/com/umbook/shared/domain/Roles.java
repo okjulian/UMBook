@@ -3,5 +3,5 @@ package com.umbook.shared.domain;
 
 public enum Roles {
 
-    ADMINISTRADOR, USUARIO
+    ROLE_ADMIN, ROLE_USER
 }

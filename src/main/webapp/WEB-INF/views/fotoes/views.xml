@@ -13,4 +13,7 @@
 <definition extends="default" name="fotoes/update">
         <put-attribute name="body" value="/WEB-INF/views/fotoes/update.jspx"/>
     </definition>
+<definition extends="default" name="fotoes/findFotoesByAlbum">
+        <put-attribute name="body" value="/WEB-INF/views/fotoes/findFotoesByAlbum.jspx"/>
+    </definition>
 </tiles-definitions>

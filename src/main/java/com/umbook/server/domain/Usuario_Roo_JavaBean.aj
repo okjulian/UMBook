@@ -5,10 +5,12 @@ package com.umbook.server.domain;
 
 import com.umbook.server.domain.Amistad;
 import com.umbook.server.domain.Comentario;
+import com.umbook.server.domain.Denuncia;
+import com.umbook.server.domain.Notificacion;
 import com.umbook.server.domain.Publicacion;
+import com.umbook.shared.domain.EstadosUsuario;
 import com.umbook.shared.domain.Generos;
 import com.umbook.shared.domain.Roles;
-import java.lang.Boolean;
 import java.lang.String;
 import java.util.Set;
 
@@ -20,6 +22,14 @@ privileged aspect Usuario_Roo_JavaBean {
     
     public void Usuario.setNombre(String nombre) {
         this.nombre = nombre;
+    }
+    
+    public String Usuario.getNombre_usuario() {
+        return this.nombre_usuario;
+    }
+    
+    public void Usuario.setNombre_usuario(String nombre_usuario) {
+        this.nombre_usuario = nombre_usuario;
     }
     
     public String Usuario.getApellido() {
@@ -62,6 +72,14 @@ privileged aspect Usuario_Roo_JavaBean {
         this.pregunta_secreta = pregunta_secreta;
     }
     
+    public String Usuario.getRespuesta_secreta() {
+        return this.respuesta_secreta;
+    }
+    
+    public void Usuario.setRespuesta_secreta(String respuesta_secreta) {
+        this.respuesta_secreta = respuesta_secreta;
+    }
+    
     public Roles Usuario.getRol() {
         return this.rol;
     }
@@ -70,11 +88,11 @@ privileged aspect Usuario_Roo_JavaBean {
         this.rol = rol;
     }
     
-    public Boolean Usuario.getEstado() {
+    public EstadosUsuario Usuario.getEstado() {
         return this.estado;
     }
     
-    public void Usuario.setEstado(Boolean estado) {
+    public void Usuario.setEstado(EstadosUsuario estado) {
         this.estado = estado;
     }
     
@@ -108,6 +126,30 @@ privileged aspect Usuario_Roo_JavaBean {
     
     public void Usuario.setAmistad(Set<Amistad> amistad) {
         this.amistad = amistad;
+    }
+    
+    public Set<Notificacion> Usuario.getNotificaciones_recibidas() {
+        return this.notificaciones_recibidas;
+    }
+    
+    public void Usuario.setNotificaciones_recibidas(Set<Notificacion> notificaciones_recibidas) {
+        this.notificaciones_recibidas = notificaciones_recibidas;
+    }
+    
+    public Set<Denuncia> Usuario.getDenuncias_recibidas() {
+        return this.denuncias_recibidas;
+    }
+    
+    public void Usuario.setDenuncias_recibidas(Set<Denuncia> denuncias_recibidas) {
+        this.denuncias_recibidas = denuncias_recibidas;
+    }
+    
+    public Set<Denuncia> Usuario.getDenuncias_emitidas() {
+        return this.denuncias_emitidas;
+    }
+    
+    public void Usuario.setDenuncias_emitidas(Set<Denuncia> denuncias_emitidas) {
+        this.denuncias_emitidas = denuncias_emitidas;
     }
     
 }

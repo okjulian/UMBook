@@ -15,7 +15,7 @@ import javax.persistence.ManyToOne;
 
 @RooJavaBean
 @RooToString
-@RooEntity
+@RooEntity(finders = { "findAlbumsByUsuario" })
 public class Album {
 
     @NotNull

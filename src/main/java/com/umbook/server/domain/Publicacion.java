@@ -14,7 +14,7 @@ import javax.persistence.CascadeType;
 
 @RooJavaBean
 @RooToString
-@RooEntity
+@RooEntity(finders = { "findPublicacionsByReceptor", "findPublicacionsByEmisor" })
 public class Publicacion {
 
     @NotNull

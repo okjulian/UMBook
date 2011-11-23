@@ -7,7 +7,9 @@ import com.umbook.server.domain.Album;
 import com.umbook.server.domain.ComentarioAlbum;
 import com.umbook.server.domain.ComentarioFoto;
 import com.umbook.server.domain.ComentarioPublicacion;
+import com.umbook.server.domain.Denuncia;
 import com.umbook.server.domain.Foto;
+import com.umbook.server.domain.Notificacion;
 import com.umbook.server.domain.Publicacion;
 import com.umbook.server.domain.Usuario;
 import java.lang.String;
@@ -21,7 +23,9 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
         registry.addConverter(new ComentarioAlbumConverter());
         registry.addConverter(new ComentarioFotoConverter());
         registry.addConverter(new ComentarioPublicacionConverter());
+        registry.addConverter(new DenunciaConverter());
         registry.addConverter(new FotoConverter());
+        registry.addConverter(new NotificacionConverter());
         registry.addConverter(new PublicacionConverter());
         registry.addConverter(new UsuarioConverter());
     }
@@ -59,9 +63,23 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
         
     }
     
+    static class com.umbook.web.ApplicationConversionServiceFactoryBean.DenunciaConverter implements Converter<Denuncia, String> {
+        public String convert(Denuncia denuncia) {
+            return new StringBuilder().append(denuncia.getContenido()).toString();
+        }
+        
+    }
+    
     static class com.umbook.web.ApplicationConversionServiceFactoryBean.FotoConverter implements Converter<Foto, String> {
         public String convert(Foto foto) {
             return new StringBuilder().append(foto.getDescripcion()).append(" ").append(foto.getUbicacion()).toString();
+        }
+        
+    }
+    
+    static class com.umbook.web.ApplicationConversionServiceFactoryBean.NotificacionConverter implements Converter<Notificacion, String> {
+        public String convert(Notificacion notificacion) {
+            return new StringBuilder().append(notificacion.getContenido()).toString();
         }
         
     }
@@ -75,7 +93,7 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     
     static class com.umbook.web.ApplicationConversionServiceFactoryBean.UsuarioConverter implements Converter<Usuario, String> {
         public String convert(Usuario usuario) {
-            return new StringBuilder().append(usuario.getNombre()).append(" ").append(usuario.getApellido()).append(" ").append(usuario.getCorreo_electronico()).append(" ").append(usuario.getContrasena()).toString();
+            return new StringBuilder().append(usuario.getNombre()).append(" ").append(usuario.getNombre_usuario()).append(" ").append(usuario.getApellido()).append(" ").append(usuario.getCorreo_electronico()).toString();
         }
         
     }
