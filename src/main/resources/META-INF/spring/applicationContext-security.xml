@@ -17,8 +17,8 @@
         <intercept-url pattern="/resources/**" access="permitAll" />
         <intercept-url pattern="/" access="permitAll" />
         <intercept-url pattern="/login/**" access="permitAll" />
-        <intercept-url pattern="/albums**" access="isAuthenticated()" />
-        <intercept-url pattern="/**" access="permitAll" />
+        <intercept-url pattern="/usuarios**" access="permitAll" />
+        <intercept-url pattern="/**" access="isAuthenticated()" />
     </http>
 
 	<!-- Configure Authentication mechanism -->
