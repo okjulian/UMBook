@@ -13,6 +13,7 @@
         
         <!-- Configure these elements to secure URIs in your application -->
         <intercept-url pattern="/choices/**" access="hasRole('ROLE_ADMIN')"/>
+        <intercept-url pattern="/user/**" access="hasRole('ROLE_USER')"/>
         <intercept-url pattern="/member/**" access="isAuthenticated()" />
         <intercept-url pattern="/resources/**" access="permitAll" />
         <intercept-url pattern="/" access="permitAll" />
@@ -28,7 +29,7 @@
 	        <jdbc-user-service
     data-source-ref="dataSource"
     users-by-username-query="SELECT U.nombre_usuario AS username, U.contrasena as password, U.estado = 'ACTIVE' FROM usuario U where U.nombre_usuario=?"
-    authorities-by-username-query="SELECT U.nombre_usuario as username, U.estado as authority FROM usuario U WHERE U.nombre_usuario=?" />
+    authorities-by-username-query="SELECT U.nombre_usuario AS username, U.estado AS authority FROM usuario U WHERE U.nombre_usuario=?" />
     	</authentication-provider>
 	</authentication-manager>
 

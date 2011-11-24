@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="denuncias/list">
+        <put-attribute name="body" value="/WEB-INF/views/denuncias/list.jspx"/>
+    </definition>
+<definition extends="default" name="denuncias/show">
+        <put-attribute name="body" value="/WEB-INF/views/denuncias/show.jspx"/>
+    </definition>
+<definition extends="default" name="denuncias/create">
+        <put-attribute name="body" value="/WEB-INF/views/denuncias/create.jspx"/>
+    </definition>
+<definition extends="default" name="denuncias/update">
+        <put-attribute name="body" value="/WEB-INF/views/denuncias/update.jspx"/>
+    </definition>
+<definition extends="default" name="denuncias/findDenunciasByEmisor">
+        <put-attribute name="body" value="/WEB-INF/views/denuncias/findDenunciasByEmisor.jspx"/>
+    </definition>
+<definition extends="default" name="denuncias/findDenunciasByReceptor">
+        <put-attribute name="body" value="/WEB-INF/views/denuncias/findDenunciasByReceptor.jspx"/>
+    </definition>
+</tiles-definitions>

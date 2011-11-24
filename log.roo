@@ -110,3 +110,22 @@ quit
 perform eclipse
 quit
 // Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-11-23 12:22:20
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-11-23 13:09:59
+cloud foundry login 
+cloud foundry deploy --appName UMBook --path CREATE
+cloud foundry stop app --appName UMBook
+cloud foundry start app --appName UMBook
+quit
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-11-23 14:19:22
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-11-23 15:52:00
+perform eclipse
+quit
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-11-23 16:31:49
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-11-24 17:12:15
+focus --class com.umbook.server.domain.Usuario
+finder list 
+focus --class ~.server.domain.Amistad
+finder list
+finder list --depth 2
+quit
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-11-24 17:21:04
