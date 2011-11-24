@@ -34,6 +34,12 @@
             <menu:item id="fi_notificacion_emisor" messageCode="global_menu_find" url="/notificacions?find=ByEmisor&amp;form" z="0qxQaGTE0p/pp/bEleQ/IypM1eU="/>
              <menu:item id="fi_notificacion_receptor" messageCode="global_menu_find" url="/notificacions?find=ByReceptor&amp;form" z="6Ac2psNZWOYcpe+JOcAG5nyigAg="/>
         </menu:category>
+        <menu:category id="c_publicacion" z="qAqJ7U0pUSMU/iq1gPpJci9TeKQ=">
+            <menu:item id="i_publicacion_new" messageCode="global_menu_new" url="/publicacions?form" z="f5/4xuDvCPHh8hX1VW2Renec/9A="/>
+            <menu:item id="i_publicacion_list" messageCode="global_menu_list" url="/publicacions?page=1&amp;size=${empty param.size ? 10 : param.size}" z="d1LOYL+nY7tilQHeUujz+Th2DbE="/>
+            <menu:item id="fi_publicacion_emisor" messageCode="global_menu_find" url="/publicacions?find=ByEmisor&amp;form" z="7nHa0rObNpsITgSeZAKYhphg6+k="/>
+            <menu:item id="fi_publicacion_receptor" messageCode="global_menu_find" url="/publicacions?find=ByReceptor&amp;form" z="vBGLDS29YMAFz1ZDrV68y9a7rQo="/>
+        </menu:category>
         <menu:category id="c_usuario" z="g6oG0656PcsmmvUYeBtpgiQROck=" render="false">
              <menu:item id="i_usuario_list" messageCode="global_menu_list" url="/usuarios?page=1&amp;size=${empty param.size ? 10 : param.size}" z="P7ZIPrcTTBR41JYD0QldbYgsZrM="/>
             <menu:item id="fi_usuario_nombre_usuario" messageCode="global_menu_find" url="/usuarios?find=ByNombre_usuario&amp;form" z="+VjqgJWnYH3iiOtN/0GHiZucAuA="/>
