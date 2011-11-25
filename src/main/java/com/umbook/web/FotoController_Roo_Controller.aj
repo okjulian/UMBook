@@ -42,13 +42,6 @@ privileged aspect FotoController_Roo_Controller {
         return "fotoes/create";
     }
     
-    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
-    public String FotoController.show(@PathVariable("id") Long id, Model uiModel) {
-        uiModel.addAttribute("foto", Foto.findFoto(id));
-        uiModel.addAttribute("itemId", id);
-        return "fotoes/show";
-    }
-    
     @RequestMapping(method = RequestMethod.GET)
     public String FotoController.list(@RequestParam(value = "page", required = false) Integer page, @RequestParam(value = "size", required = false) Integer size, Model uiModel) {
         if (page != null || size != null) {
@@ -60,23 +53,6 @@ privileged aspect FotoController_Roo_Controller {
             uiModel.addAttribute("fotoes", Foto.findAllFotoes());
         }
         return "fotoes/list";
-    }
-    
-    @RequestMapping(method = RequestMethod.PUT)
-    public String FotoController.update(@Valid Foto foto, BindingResult bindingResult, Model uiModel, HttpServletRequest httpServletRequest) {
-        if (bindingResult.hasErrors()) {
-            uiModel.addAttribute("foto", foto);
-            return "fotoes/update";
-        }
-        uiModel.asMap().clear();
-        foto.merge();
-        return "redirect:/fotoes/" + encodeUrlPathSegment(foto.getId().toString(), httpServletRequest);
-    }
-    
-    @RequestMapping(value = "/{id}", params = "form", method = RequestMethod.GET)
-    public String FotoController.updateForm(@PathVariable("id") Long id, Model uiModel) {
-        uiModel.addAttribute("foto", Foto.findFoto(id));
-        return "fotoes/update";
     }
     
     @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)

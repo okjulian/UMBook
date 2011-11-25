@@ -2,11 +2,16 @@
 <div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
-    <form:create id="fc_com_umbook_server_domain_Foto" modelAttribute="foto" path="/fotoes" render="${empty dependencies}" z="Rk+H6zmxbQzJZKHvsI5/qWwZ+/A=">
-        <field:input field="descripcion" id="c_com_umbook_server_domain_Foto_descripcion" z="AD8H/w6lCNgwkWjZoARaE6izOwg="/>
-        <field:input field="ubicacion" id="c_com_umbook_server_domain_Foto_ubicacion" z="cXpYmdConvMfung2V8lUsdDnujQ="/>
+    <form:multi id="fc_com_umbook_server_domain_Foto" modelAttribute="foto" path="/fotoes/guardarfoto" render="${empty dependencies}" z="user-managed">
+        <field:input field="nombre" id="c_com_umbook_server_domain_Foto_nombre" max="30" required="true" z="user-managed"/>
+        <field:textarea field="descripcion" id="c_com_umbook_server_domain_Foto_descripcion" required="true" z="user-managed"/>
+        <field:input field="nombre_archivo" id="c_com_umbook_server_domain_Foto_nombre_archivo" render="false" z="user-managed"/>
+        <field:file field="contenido" id="c_com_umbook_server_domain_Foto_contenido" required="true" z="user-managed"/>
+        <field:input field="tipo_contenido" id="c_com_umbook_server_domain_Foto_tipo_contenido" render="false" z="user-managed"/>
+        <field:input field="tamano" id="c_com_umbook_server_domain_Foto_tamano" render="false" validationMessageCode="field_invalid_integer" z="user-managed"/>
+        <field:textarea field="url" id="c_com_umbook_server_domain_Foto_url" render="false" z="user-managed"/>
         <field:simple field="comentarios" id="c_com_umbook_server_domain_Foto_comentarios" messageCode="entity_reference_not_managed" messageCodeAttribute="Comentario Foto" z="XastdqLPwRBt6fMDB54s37Rd55w="/>
         <field:select field="album" id="c_com_umbook_server_domain_Foto_album" itemValue="id" items="${albums}" path="/albums" z="LKVdypyDHxm/r+MzV0hduRsNli4="/>
-    </form:create>
+    </form:multi>
     <form:dependency dependencies="${dependencies}" id="d_com_umbook_server_domain_Foto" render="${not empty dependencies}" z="2yImRDNe1u1/kwvFUZHsBHYbe9I="/>
 </div>

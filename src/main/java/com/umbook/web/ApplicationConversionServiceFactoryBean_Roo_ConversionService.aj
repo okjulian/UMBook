@@ -72,7 +72,7 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     
     static class com.umbook.web.ApplicationConversionServiceFactoryBean.FotoConverter implements Converter<Foto, String> {
         public String convert(Foto foto) {
-            return new StringBuilder().append(foto.getDescripcion()).append(" ").append(foto.getUbicacion()).toString();
+            return new StringBuilder().append(foto.getTipo_contenido()).append(" ").append(foto.getNombre()).append(" ").append(foto.getDescripcion()).append(" ").append(foto.getNombre_archivo()).toString();
         }
         
     }

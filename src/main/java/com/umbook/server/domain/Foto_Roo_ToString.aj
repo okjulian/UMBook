@@ -11,9 +11,14 @@ privileged aspect Foto_Roo_ToString {
         StringBuilder sb = new StringBuilder();
         sb.append("Album: ").append(getAlbum()).append(", ");
         sb.append("Comentarios: ").append(getComentarios() == null ? "null" : getComentarios().size()).append(", ");
+        sb.append("Contenido: ").append(java.util.Arrays.toString(getContenido())).append(", ");
         sb.append("Descripcion: ").append(getDescripcion()).append(", ");
         sb.append("Id: ").append(getId()).append(", ");
-        sb.append("Ubicacion: ").append(getUbicacion()).append(", ");
+        sb.append("Nombre: ").append(getNombre()).append(", ");
+        sb.append("Nombre_archivo: ").append(getNombre_archivo()).append(", ");
+        sb.append("Tamano: ").append(getTamano()).append(", ");
+        sb.append("Tipo_contenido: ").append(getTipo_contenido()).append(", ");
+        sb.append("Url: ").append(getUrl()).append(", ");
         sb.append("Version: ").append(getVersion());
         return sb.toString();
     }

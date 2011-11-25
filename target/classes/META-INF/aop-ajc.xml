@@ -30,9 +30,9 @@
 <aspect name="com.umbook.server.domain.Foto_Roo_Configurable"/>
 <aspect name="com.umbook.server.domain.Album_Roo_ToString"/>
 <aspect name="com.umbook.server.domain.Solicitud_Roo_Configurable"/>
-<aspect name="com.umbook.web.GrupoController_Roo_Controller"/>
 <aspect name="com.umbook.server.domain.ComentarioFoto_Roo_JavaBean"/>
 <aspect name="com.umbook.web.ComentarioPublicacionController_Roo_Controller_Finder"/>
+<aspect name="com.umbook.web.GrupoController_Roo_Controller"/>
 <aspect name="com.umbook.web.DenunciaController_Roo_Controller_Finder"/>
 <aspect name="com.umbook.server.domain.Notificacion_Roo_Configurable"/>
 <aspect name="com.umbook.server.domain.Denuncia_Roo_Finder"/>
@@ -41,7 +41,6 @@
 <aspect name="com.umbook.server.domain.Foto_Roo_Finder"/>
 <aspect name="com.umbook.web.ComentarioFotoController_Roo_Controller_Finder"/>
 <aspect name="com.umbook.web.FotoController_Roo_Controller"/>
-<aspect name="com.umbook.server.domain.Foto_Roo_JavaBean"/>
 <aspect name="com.umbook.server.domain.Notificacion_Roo_Entity"/>
 <aspect name="com.umbook.web.NotificacionController_Roo_Controller_Finder"/>
 <aspect name="com.umbook.server.domain.ComentarioFoto_Roo_Configurable"/>

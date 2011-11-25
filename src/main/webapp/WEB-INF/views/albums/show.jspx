@@ -2,6 +2,14 @@
 <div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_umbook_server_domain_Foto" object="${foto}" path="/fotoes" update="false" z="J8X2O2T06x6jYb3WAyaNiTPGVZ0=">
+        <field:display field="nombre" id="s_com_umbook_server_domain_Foto_nombre" object="${foto}" z="VZEPJgXqYkqaHpDDPTcYr6DAjsM="/>
+        <field:display field="descripcion" id="s_com_umbook_server_domain_Foto_descripcion" object="${foto}" z="CeXQhSyEDeLn1Iu2hblanNbVc+A="/>
+        <field:display field="nombre_archivo" id="s_com_umbook_server_domain_Foto_nombre_archivo" object="${foto}" z="2HT3+zT1+1ft5kN4KhvXFWT9QnM="/>
+        <field:display field="tipo_contenido" id="s_com_umbook_server_domain_Foto_tipo_contenido" object="${foto}" z="FgCNUQ2KCygzKpUbP06Nxyjyfd8="/>
+        <field:display field="tamano" id="s_com_umbook_server_domain_Foto_tamano" object="${foto}" z="WdQ4wob2LThzMpucODZRa275TBc="/>
+        <field:frame field="url" id="s_com_umbook_server_domain_Foto_url" object="${foto}" render="true" z="user-managed"/>
+    </page:show>
     <page:show id="ps_com_umbook_server_domain_Album" object="${album}" path="/albums" z="ZUdQr/f8/tyGZcHmQvH1mDFDTnc=">
         <field:display field="nombre" id="s_com_umbook_server_domain_Album_nombre" object="${album}" z="DIRb2Cp2+WHY7Rl+5CfV40ynwn0="/>
         <field:display field="descripcion" id="s_com_umbook_server_domain_Album_descripcion" object="${album}" z="7ek5MY+vjCwPr6oEdA0IJRp5YbQ="/>

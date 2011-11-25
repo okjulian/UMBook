@@ -3,11 +3,13 @@
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
     <page:list id="pl_com_umbook_server_domain_Foto" items="${fotoes}" z="QluGbmJ7Ne7h5eJA75IquEu09Ok=">
-        <table:table data="${fotoes}" id="l_com_umbook_server_domain_Foto" path="/fotoes" z="gbe08I8S2zCWpEgdkFhdg40Uo1c=">
+        <table:table data="${fotoes}" id="l_com_umbook_server_domain_Foto" path="/fotoes" update="false" z="sNWQEgs2/blj81DvDwFEZYrESRU=">
+            <table:column id="c_com_umbook_server_domain_Foto_nombre" property="nombre" z="A2vv99O17+iIZHbBy9hyr9Qehz8="/>
             <table:column id="c_com_umbook_server_domain_Foto_descripcion" property="descripcion" z="SIbic4eNdTqlTX+vDm8wMx3H6WY="/>
-            <table:column id="c_com_umbook_server_domain_Foto_ubicacion" property="ubicacion" z="xV/Rie9sSIWfBu4TvU+SATcOzcU="/>
-            <table:column id="c_com_umbook_server_domain_Foto_comentarios" property="comentarios" z="kJRuK71B4aE9SYoKK68w//nhMEk="/>
-            <table:column id="c_com_umbook_server_domain_Foto_album" property="album" z="hMCjLJ8CzBGcrtO9JoFBs7oxq+Q="/>
+            <table:column id="c_com_umbook_server_domain_Foto_nombre_archivo" property="nombre_archivo" z="3ReD0LW7++bXrwQsLgG3pr1wd0Y="/>
+            <table:column id="c_com_umbook_server_domain_Foto_contenido" property="contenido" z="SJ0/RMWOCcigNBv6sJXotVsJsY4="/>
+            <table:column id="c_com_umbook_server_domain_Foto_tipo_contenido" property="tipo_contenido" z="+5tuYeiNO2bJYatdD4xxAz76D58="/>
+            <table:column id="c_com_umbook_server_domain_Foto_tamano" property="tamano" z="7xToIAZjEHo1OFJGzzbsE7wrNiY="/>
         </table:table>
     </page:list>
 </div>
