@@ -181,3 +181,39 @@ quit
 hint
 quit
 // Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-11-25 01:31:53
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-11-25 10:51:42
+focus --class ~.server.domain.Album
+finder list
+finder add --finderName findAlbumsByUsuario
+// [failed] controller class --class com.umbook.server.domain.Album 
+quit
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-11-25 10:56:24
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-11-25 11:09:00
+hint
+quit
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-11-25 11:10:59
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-11-25 11:16:11
+hint
+hint
+quit
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-11-25 11:17:27
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-11-25 11:24:47
+focus --class ~.server.domain.Foto
+finder list
+quit
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-11-25 11:30:38
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-11-25 11:32:19
+hint
+hint
+quit
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-11-25 11:37:29
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-11-25 11:37:35
+hint
+hint
+quit
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-11-25 11:39:04
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-11-25 11:39:09
+focus --class ~.server.domain.Amistad
+finder list
+finder list --depth 2
+finder add findAmistadsByUsuario_1OrUsuario_2

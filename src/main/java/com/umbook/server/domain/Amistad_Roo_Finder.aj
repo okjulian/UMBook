@@ -18,6 +18,16 @@ privileged aspect Amistad_Roo_Finder {
         return q;
     }
     
+    public static TypedQuery<Amistad> Amistad.findAmistadsByUsuario_1OrUsuario_2(Usuario usuario_1, Usuario usuario_2) {
+        if (usuario_1 == null) throw new IllegalArgumentException("The usuario_1 argument is required");
+        if (usuario_2 == null) throw new IllegalArgumentException("The usuario_2 argument is required");
+        EntityManager em = Amistad.entityManager();
+        TypedQuery<Amistad> q = em.createQuery("SELECT o FROM Amistad AS o WHERE o.usuario_1 = :usuario_1 OR o.usuario_2 = :usuario_2", Amistad.class);
+        q.setParameter("usuario_1", usuario_1);
+        q.setParameter("usuario_2", usuario_2);
+        return q;
+    }
+    
     public static TypedQuery<Amistad> Amistad.findAmistadsByUsuario_2(Usuario usuario_2) {
         if (usuario_2 == null) throw new IllegalArgumentException("The usuario_2 argument is required");
         EntityManager em = Amistad.entityManager();

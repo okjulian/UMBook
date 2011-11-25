@@ -25,6 +25,19 @@ privileged aspect AmistadController_Roo_Controller_Finder {
         return "amistads/list";
     }
     
+    @RequestMapping(params = { "find=ByUsuario_1OrUsuario_2", "form" }, method = RequestMethod.GET)
+    public String AmistadController.findAmistadsByUsuario_1OrUsuario_2Form(Model uiModel) {
+        uiModel.addAttribute("usuarios", Usuario.findAllUsuarios());
+        uiModel.addAttribute("usuarios", Usuario.findAllUsuarios());
+        return "amistads/findAmistadsByUsuario_1OrUsuario_2";
+    }
+    
+    @RequestMapping(params = "find=ByUsuario_1OrUsuario_2", method = RequestMethod.GET)
+    public String AmistadController.findAmistadsByUsuario_1OrUsuario_2(@RequestParam("usuario_1") Usuario usuario_1, @RequestParam("usuario_2") Usuario usuario_2, Model uiModel) {
+        uiModel.addAttribute("amistads", Amistad.findAmistadsByUsuario_1OrUsuario_2(usuario_1, usuario_2).getResultList());
+        return "amistads/list";
+    }
+    
     @RequestMapping(params = { "find=ByUsuario_2", "form" }, method = RequestMethod.GET)
     public String AmistadController.findAmistadsByUsuario_2Form(Model uiModel) {
         uiModel.addAttribute("usuarios", Usuario.findAllUsuarios());

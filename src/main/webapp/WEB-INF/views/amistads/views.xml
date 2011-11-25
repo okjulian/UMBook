@@ -19,4 +19,7 @@
 <definition extends="default" name="amistads/findAmistadsByUsuario_2">
         <put-attribute name="body" value="/WEB-INF/views/amistads/findAmistadsByUsuario_2.jspx"/>
     </definition>
+<definition extends="default" name="amistads/findAmistadsByUsuario_1OrUsuario_2">
+        <put-attribute name="body" value="/WEB-INF/views/amistads/findAmistadsByUsuario_1OrUsuario_2.jspx"/>
+    </definition>
 </tiles-definitions>

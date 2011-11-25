@@ -3,12 +3,12 @@
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
     <page:show id="ps_com_umbook_server_domain_Foto" object="${foto}" path="/fotoes" update="false" z="CxzsuiMDjd72yQa74ijd+lHntpc=">
+        <field:display field="tipo_contenido" id="s_com_umbook_server_domain_Foto_tipo_contenido" object="${foto}" render="false" z="user-managed"/>
+        <field:display field="contenido" id="s_com_umbook_server_domain_Foto_contenido" object="${foto}" render="false" z="user-managed"/>
         <field:display field="nombre" id="s_com_umbook_server_domain_Foto_nombre" object="${foto}" z="vEbTJll8lXX/8zUTXjYEK52WfcU="/>
         <field:display field="descripcion" id="s_com_umbook_server_domain_Foto_descripcion" object="${foto}" z="GG9mLM1eRz7ZiF8sssPcddJTUtw="/>
-        <field:display field="nombre_archivo" id="s_com_umbook_server_domain_Foto_nombre_archivo" object="${foto}" z="unYIkyvZ4Uzr2lflP0uFUKPG/IA="/>
-        <field:display field="contenido" id="s_com_umbook_server_domain_Foto_contenido" render="false" object="${foto}" z="UncIPHs29L4Dxd8G8ofjg8hCRVI="/>
-        <field:display field="tipo_contenido" id="s_com_umbook_server_domain_Foto_tipo_contenido" object="${foto}" z="8Gs6AHEMftsRYzOF02q+00JLAOc="/>
-        <field:display field="tamano" id="s_com_umbook_server_domain_Foto_tamano" object="${foto}" z="XQOeuNJOGFl1z3LyAOjJJhILWjc="/>
+        <field:display field="nombre_archivo" id="s_com_umbook_server_domain_Foto_nombre_archivo" object="${foto}" render="false" z="user-managed"/>
+        <field:display field="tamano" id="s_com_umbook_server_domain_Foto_tamano" object="${foto}" render="false" z="user-managed"/>
         <field:display field="url" id="s_com_umbook_server_domain_Foto_url" object="${foto}" z="ja+YXPGYUv3iNKaN+xls+Ztu+WQ="/>
         <field:display field="album" id="s_com_umbook_server_domain_Foto_album" object="${foto}" z="PONaUxF8FcoFR1xhvAG22EjlSMM="/>
     </page:show>

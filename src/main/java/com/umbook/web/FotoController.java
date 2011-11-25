@@ -29,7 +29,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.support.ByteArrayMultipartFileEditor;
 
-@RooWebScaffold(path = "fotoes", formBackingObject = Foto.class)
+@RooWebScaffold(path = "fotoes", formBackingObject = Foto.class, update=false)
 @RequestMapping("/fotoes")
 @Controller
 public class FotoController {

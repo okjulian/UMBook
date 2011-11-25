@@ -61,23 +61,6 @@ privileged aspect AmistadController_Roo_Controller {
         return "amistads/list";
     }
     
-    @RequestMapping(method = RequestMethod.PUT)
-    public String AmistadController.update(@Valid Amistad amistad, BindingResult bindingResult, Model uiModel, HttpServletRequest httpServletRequest) {
-        if (bindingResult.hasErrors()) {
-            uiModel.addAttribute("amistad", amistad);
-            return "amistads/update";
-        }
-        uiModel.asMap().clear();
-        amistad.merge();
-        return "redirect:/amistads/" + encodeUrlPathSegment(amistad.getId().toString(), httpServletRequest);
-    }
-    
-    @RequestMapping(value = "/{id}", params = "form", method = RequestMethod.GET)
-    public String AmistadController.updateForm(@PathVariable("id") Long id, Model uiModel) {
-        uiModel.addAttribute("amistad", Amistad.findAmistad(id));
-        return "amistads/update";
-    }
-    
     @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
     public String AmistadController.delete(@PathVariable("id") Long id, @RequestParam(value = "page", required = false) Integer page, @RequestParam(value = "size", required = false) Integer size, Model uiModel) {
         Amistad.findAmistad(id).remove();

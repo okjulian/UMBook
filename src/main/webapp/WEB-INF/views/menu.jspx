@@ -14,8 +14,8 @@
         <sec:authorize url="/**">
             <menu:category id="c_album" z="xdbKFwZl252vF+vnwh2Ggid2uoM=">
                 <menu:item id="i_album_new" messageCode="global_menu_new" url="/albums?form" z="I7xVZsEZPxoS6HbPrVhfjUkSKoI="/>
-                <menu:item id="i_album_list" messageCode="global_menu_list" url="/albums?page=1&amp;size=${empty param.size ? 10 : param.size}" z="uoWP93BbsZYmmEc2xtJNRTa7k0E="/>
-                <menu:item id="fi_album_usuario" messageCode="global_menu_find" url="/albums?find=ByUsuario&amp;form" z="IjV7Qd6y8yL0wrMnbrFxxpWEc/8="/>
+                <menu:item id="i_album_list" messageCode="global_menu_list" render="false" url="/albums?page=1&amp;size=${empty param.size ? 10 : param.size}" z="user-managed"/>
+                <menu:item id="fi_album_usuario" messageCode="global_menu_find" render="false" url="/albums?find=ByUsuario&amp;form" z="user-managed"/>
             </menu:category>
             <menu:category id="c_foto" z="aTANWuwwmMUf+aRknraLR6EdNbw=">
                 <menu:item id="i_foto_new" messageCode="global_menu_new" url="/fotoes?form" z="nUbniQGReiz7/MChbwwT05guYTY="/>
@@ -24,20 +24,21 @@
             </menu:category>
             <menu:category id="c_amistad" z="9gs84phbGTI5fNMpd5R5OCyVVNo=">
                 <menu:item id="i_amistad_new" messageCode="global_menu_new" url="/amistads?form" z="VS0fMH3284HEZy2NPW92p5lpMkQ="/>
-                <menu:item id="i_amistad_list" messageCode="global_menu_list" url="/amistads?page=1&amp;size=${empty param.size ? 10 : param.size}" z="KFipL/Pm8+naVS9nsTvfUIURPXA="/>
-                <menu:item id="fi_amistad_usuario_1" messageCode="global_menu_find" url="/amistads?find=ByUsuario_1&amp;form" z="xTS4vHlOhJZ+vCxQdJ8A+7TYZK0="/>
-                <menu:item id="fi_amistad_usuario_2" messageCode="global_menu_find" url="/amistads?find=ByUsuario_2&amp;form" z="L76RhPwUaB14qEBsyUd/Sg5t3qw="/>
+                <menu:item id="i_amistad_list" messageCode="global_menu_list" render="false" url="/amistads?page=1&amp;size=${empty param.size ? 10 : param.size}" z="user-managed"/>
+                <menu:item id="fi_amistad_usuario_1" messageCode="global_menu_find" render="false" url="/amistads?find=ByUsuario_1&amp;form" z="user-managed"/>
+                <menu:item id="fi_amistad_usuario_2" messageCode="global_menu_find" render="false" url="/amistads?find=ByUsuario_2&amp;form" z="user-managed"/>
+                <menu:item id="fi_amistad_usuario_1orusuario_2" messageCode="global_menu_find" url="/amistads?find=ByUsuario_1OrUsuario_2&amp;form" z="WPiaJmgGFLsDd3vgcARg+BoBL7M="/>
             </menu:category>
             <menu:category id="c_notificacion" z="sXCUvctmdFdpLOkPBobjdqTFvgc=">
-                <menu:item id="i_notificacion_new" messageCode="global_menu_new" url="/notificacions?form" z="grmKJIJUWHrBgAYG1kMTHJKJT0A="/>
-                <menu:item id="i_notificacion_list" messageCode="global_menu_list" url="/notificacions?page=1&amp;size=${empty param.size ? 10 : param.size}" z="9Jwc5inillnptAIVyslJ2IS6kDE="/>
-                <menu:item id="fi_notificacion_emisor" messageCode="global_menu_find" url="/notificacions?find=ByEmisor&amp;form" z="0qxQaGTE0p/pp/bEleQ/IypM1eU="/>
+                <menu:item id="i_notificacion_new" messageCode="global_menu_new" render="false" url="/notificacions?form" z="user-managed"/>
+                <menu:item id="i_notificacion_list" messageCode="global_menu_list" render="false" url="/notificacions?page=1&amp;size=${empty param.size ? 10 : param.size}" z="user-managed"/>
+                <menu:item id="fi_notificacion_emisor" messageCode="global_menu_find" render="false" url="/notificacions?find=ByEmisor&amp;form" z="user-managed"/>
                 <menu:item id="fi_notificacion_receptor" messageCode="global_menu_find" url="/notificacions?find=ByReceptor&amp;form" z="6Ac2psNZWOYcpe+JOcAG5nyigAg="/>
             </menu:category>
             <menu:category id="c_publicacion" z="qAqJ7U0pUSMU/iq1gPpJci9TeKQ=">
                 <menu:item id="i_publicacion_new" messageCode="global_menu_new" url="/publicacions?form" z="f5/4xuDvCPHh8hX1VW2Renec/9A="/>
-                <menu:item id="i_publicacion_list" messageCode="global_menu_list" url="/publicacions?page=1&amp;size=${empty param.size ? 10 : param.size}" z="d1LOYL+nY7tilQHeUujz+Th2DbE="/>
-                <menu:item id="fi_publicacion_emisor" messageCode="global_menu_find" url="/publicacions?find=ByEmisor&amp;form" z="7nHa0rObNpsITgSeZAKYhphg6+k="/>
+                <menu:item id="i_publicacion_list" messageCode="global_menu_list" render="false" url="/publicacions?page=1&amp;size=${empty param.size ? 10 : param.size}" z="user-managed"/>
+                <menu:item id="fi_publicacion_emisor" messageCode="global_menu_find" render="false" url="/publicacions?find=ByEmisor&amp;form" z="user-managed"/>
                 <menu:item id="fi_publicacion_receptor" messageCode="global_menu_find" url="/publicacions?find=ByReceptor&amp;form" z="vBGLDS29YMAFz1ZDrV68y9a7rQo="/>
             </menu:category>
             <menu:category id="c_usuario" render="false" z="user-managed">
@@ -61,7 +62,7 @@
             <menu:item id="i_comentariopublicacion_list" messageCode="global_menu_list" url="/comentariopublicacions?page=1&amp;size=${empty param.size ? 10 : param.size}" z="tDTMrEmoE8nsG41oW1v49wpdoU4="/>
             <menu:item id="fi_comentariopublicacion_publicacion" messageCode="global_menu_find" url="/comentariopublicacions?find=ByPublicacion&amp;form" z="z82Q+52o4ocAF7WyAyP01NVsBCk="/>
         </menu:category>
-        <menu:category id="c_denuncia" z="user-managed" render="false">
+        <menu:category id="c_denuncia" render="false" z="user-managed">
             <menu:item id="i_denuncia_new" messageCode="global_menu_new" url="/denuncias?form" z="B8lJxjfOm0VLQOtKtcJBvR+HsWE="/>
             <menu:item id="i_denuncia_list" messageCode="global_menu_list" url="/denuncias?page=1&amp;size=${empty param.size ? 10 : param.size}" z="4f3hxo2TCtBAPWc7Y+Egc/eHMMA="/>
             <menu:item id="fi_denuncia_emisor" messageCode="global_menu_find" url="/denuncias?find=ByEmisor&amp;form" z="UyjnPZupsBs0DyEhD4OUKFS3Xik="/>

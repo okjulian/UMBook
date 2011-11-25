@@ -106,14 +106,16 @@ public final class show_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005fdisplay_005f0);
     _jspx_th_field_005fdisplay_005f0.setJspContext(_jspx_page_context);
     _jspx_th_field_005fdisplay_005f0.setParent(_jspx_parent);
-    // /WEB-INF/views/fotoes/show.jspx(6,134) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fdisplay_005f0.setZ("vEbTJll8lXX/8zUTXjYEK52WfcU=");
-    // /WEB-INF/views/fotoes/show.jspx(6,134) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/fotoes/show.jspx(6,149) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fdisplay_005f0.setZ("user-managed");
+    // /WEB-INF/views/fotoes/show.jspx(6,149) name = render type = java.lang.Boolean reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fdisplay_005f0.setRender(new Boolean(false));
+    // /WEB-INF/views/fotoes/show.jspx(6,149) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f0.setObject((java.lang.Object) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${foto}", java.lang.Object.class, (PageContext)_jspx_page_context, null, false));
-    // /WEB-INF/views/fotoes/show.jspx(6,134) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fdisplay_005f0.setId("s_com_umbook_server_domain_Foto_nombre");
-    // /WEB-INF/views/fotoes/show.jspx(6,134) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fdisplay_005f0.setField("nombre");
+    // /WEB-INF/views/fotoes/show.jspx(6,149) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fdisplay_005f0.setId("s_com_umbook_server_domain_Foto_tipo_contenido");
+    // /WEB-INF/views/fotoes/show.jspx(6,149) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fdisplay_005f0.setField("tipo_contenido");
     _jspx_th_field_005fdisplay_005f0.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005fdisplay_005f0);
     return false;
@@ -128,14 +130,16 @@ public final class show_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005fdisplay_005f1);
     _jspx_th_field_005fdisplay_005f1.setJspContext(_jspx_page_context);
     _jspx_th_field_005fdisplay_005f1.setParent(_jspx_parent);
-    // /WEB-INF/views/fotoes/show.jspx(7,144) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fdisplay_005f1.setZ("GG9mLM1eRz7ZiF8sssPcddJTUtw=");
-    // /WEB-INF/views/fotoes/show.jspx(7,144) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/fotoes/show.jspx(7,139) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fdisplay_005f1.setZ("user-managed");
+    // /WEB-INF/views/fotoes/show.jspx(7,139) name = render type = java.lang.Boolean reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fdisplay_005f1.setRender(new Boolean(false));
+    // /WEB-INF/views/fotoes/show.jspx(7,139) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f1.setObject((java.lang.Object) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${foto}", java.lang.Object.class, (PageContext)_jspx_page_context, null, false));
-    // /WEB-INF/views/fotoes/show.jspx(7,144) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fdisplay_005f1.setId("s_com_umbook_server_domain_Foto_descripcion");
-    // /WEB-INF/views/fotoes/show.jspx(7,144) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fdisplay_005f1.setField("descripcion");
+    // /WEB-INF/views/fotoes/show.jspx(7,139) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fdisplay_005f1.setId("s_com_umbook_server_domain_Foto_contenido");
+    // /WEB-INF/views/fotoes/show.jspx(7,139) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fdisplay_005f1.setField("contenido");
     _jspx_th_field_005fdisplay_005f1.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005fdisplay_005f1);
     return false;
@@ -150,14 +154,14 @@ public final class show_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005fdisplay_005f2);
     _jspx_th_field_005fdisplay_005f2.setJspContext(_jspx_page_context);
     _jspx_th_field_005fdisplay_005f2.setParent(_jspx_parent);
-    // /WEB-INF/views/fotoes/show.jspx(8,150) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fdisplay_005f2.setZ("unYIkyvZ4Uzr2lflP0uFUKPG/IA=");
-    // /WEB-INF/views/fotoes/show.jspx(8,150) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/fotoes/show.jspx(8,134) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fdisplay_005f2.setZ("vEbTJll8lXX/8zUTXjYEK52WfcU=");
+    // /WEB-INF/views/fotoes/show.jspx(8,134) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f2.setObject((java.lang.Object) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${foto}", java.lang.Object.class, (PageContext)_jspx_page_context, null, false));
-    // /WEB-INF/views/fotoes/show.jspx(8,150) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fdisplay_005f2.setId("s_com_umbook_server_domain_Foto_nombre_archivo");
-    // /WEB-INF/views/fotoes/show.jspx(8,150) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fdisplay_005f2.setField("nombre_archivo");
+    // /WEB-INF/views/fotoes/show.jspx(8,134) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fdisplay_005f2.setId("s_com_umbook_server_domain_Foto_nombre");
+    // /WEB-INF/views/fotoes/show.jspx(8,134) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fdisplay_005f2.setField("nombre");
     _jspx_th_field_005fdisplay_005f2.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005fdisplay_005f2);
     return false;
@@ -172,16 +176,14 @@ public final class show_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005fdisplay_005f3);
     _jspx_th_field_005fdisplay_005f3.setJspContext(_jspx_page_context);
     _jspx_th_field_005fdisplay_005f3.setParent(_jspx_parent);
-    // /WEB-INF/views/fotoes/show.jspx(9,155) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fdisplay_005f3.setZ("UncIPHs29L4Dxd8G8ofjg8hCRVI=");
-    // /WEB-INF/views/fotoes/show.jspx(9,155) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/fotoes/show.jspx(9,144) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fdisplay_005f3.setZ("GG9mLM1eRz7ZiF8sssPcddJTUtw=");
+    // /WEB-INF/views/fotoes/show.jspx(9,144) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f3.setObject((java.lang.Object) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${foto}", java.lang.Object.class, (PageContext)_jspx_page_context, null, false));
-    // /WEB-INF/views/fotoes/show.jspx(9,155) name = render type = java.lang.Boolean reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fdisplay_005f3.setRender(new Boolean(false));
-    // /WEB-INF/views/fotoes/show.jspx(9,155) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fdisplay_005f3.setId("s_com_umbook_server_domain_Foto_contenido");
-    // /WEB-INF/views/fotoes/show.jspx(9,155) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fdisplay_005f3.setField("contenido");
+    // /WEB-INF/views/fotoes/show.jspx(9,144) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fdisplay_005f3.setId("s_com_umbook_server_domain_Foto_descripcion");
+    // /WEB-INF/views/fotoes/show.jspx(9,144) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fdisplay_005f3.setField("descripcion");
     _jspx_th_field_005fdisplay_005f3.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005fdisplay_005f3);
     return false;
@@ -196,14 +198,16 @@ public final class show_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005fdisplay_005f4);
     _jspx_th_field_005fdisplay_005f4.setJspContext(_jspx_page_context);
     _jspx_th_field_005fdisplay_005f4.setParent(_jspx_parent);
-    // /WEB-INF/views/fotoes/show.jspx(10,150) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fdisplay_005f4.setZ("8Gs6AHEMftsRYzOF02q+00JLAOc=");
-    // /WEB-INF/views/fotoes/show.jspx(10,150) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/fotoes/show.jspx(10,149) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fdisplay_005f4.setZ("user-managed");
+    // /WEB-INF/views/fotoes/show.jspx(10,149) name = render type = java.lang.Boolean reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fdisplay_005f4.setRender(new Boolean(false));
+    // /WEB-INF/views/fotoes/show.jspx(10,149) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f4.setObject((java.lang.Object) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${foto}", java.lang.Object.class, (PageContext)_jspx_page_context, null, false));
-    // /WEB-INF/views/fotoes/show.jspx(10,150) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fdisplay_005f4.setId("s_com_umbook_server_domain_Foto_tipo_contenido");
-    // /WEB-INF/views/fotoes/show.jspx(10,150) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fdisplay_005f4.setField("tipo_contenido");
+    // /WEB-INF/views/fotoes/show.jspx(10,149) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fdisplay_005f4.setId("s_com_umbook_server_domain_Foto_nombre_archivo");
+    // /WEB-INF/views/fotoes/show.jspx(10,149) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fdisplay_005f4.setField("nombre_archivo");
     _jspx_th_field_005fdisplay_005f4.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005fdisplay_005f4);
     return false;
@@ -218,13 +222,15 @@ public final class show_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005fdisplay_005f5);
     _jspx_th_field_005fdisplay_005f5.setJspContext(_jspx_page_context);
     _jspx_th_field_005fdisplay_005f5.setParent(_jspx_parent);
-    // /WEB-INF/views/fotoes/show.jspx(11,134) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fdisplay_005f5.setZ("XQOeuNJOGFl1z3LyAOjJJhILWjc=");
-    // /WEB-INF/views/fotoes/show.jspx(11,134) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/fotoes/show.jspx(11,133) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fdisplay_005f5.setZ("user-managed");
+    // /WEB-INF/views/fotoes/show.jspx(11,133) name = render type = java.lang.Boolean reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fdisplay_005f5.setRender(new Boolean(false));
+    // /WEB-INF/views/fotoes/show.jspx(11,133) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f5.setObject((java.lang.Object) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${foto}", java.lang.Object.class, (PageContext)_jspx_page_context, null, false));
-    // /WEB-INF/views/fotoes/show.jspx(11,134) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/fotoes/show.jspx(11,133) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f5.setId("s_com_umbook_server_domain_Foto_tamano");
-    // /WEB-INF/views/fotoes/show.jspx(11,134) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/fotoes/show.jspx(11,133) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f5.setField("tamano");
     _jspx_th_field_005fdisplay_005f5.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005fdisplay_005f5);
