@@ -290,15 +290,15 @@ public final class create_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005fselect_005f1);
     _jspx_th_field_005fselect_005f1.setJspContext(_jspx_page_context);
     _jspx_th_field_005fselect_005f1.setParent(_jspx_parent);
-    // /WEB-INF/views/usuarios/create.jspx(14,147) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fselect_005f1.setZ("SKBxQz9lxhsQRgTWLt0e/DCoXo0=");
-    // /WEB-INF/views/usuarios/create.jspx(14,147) name = path type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(14,119) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fselect_005f1.setZ("");
+    // /WEB-INF/views/usuarios/create.jspx(14,119) name = path type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fselect_005f1.setPath("roleses");
-    // /WEB-INF/views/usuarios/create.jspx(14,147) name = items type = java.util.Collection reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(14,119) name = items type = java.util.Collection reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fselect_005f1.setItems((java.util.Collection) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${roleses}", java.util.Collection.class, (PageContext)_jspx_page_context, null, false));
-    // /WEB-INF/views/usuarios/create.jspx(14,147) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(14,119) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fselect_005f1.setId("c_com_umbook_server_domain_Usuario_rol");
-    // /WEB-INF/views/usuarios/create.jspx(14,147) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(14,119) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fselect_005f1.setField("rol");
     _jspx_th_field_005fselect_005f1.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005fselect_005f1);
@@ -314,11 +314,13 @@ public final class create_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005finput_005f7);
     _jspx_th_field_005finput_005f7.setJspContext(_jspx_page_context);
     _jspx_th_field_005finput_005f7.setParent(_jspx_parent);
-    // /WEB-INF/views/usuarios/create.jspx(15,128) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005finput_005f7.setZ("oD6HF+YPljVXiZmBLJECK81V/Pk=");
-    // /WEB-INF/views/usuarios/create.jspx(15,128) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(15,127) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005finput_005f7.setZ("user-managed");
+    // /WEB-INF/views/usuarios/create.jspx(15,127) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005finput_005f7.setId("c_com_umbook_server_domain_Usuario_foto_perfil");
-    // /WEB-INF/views/usuarios/create.jspx(15,128) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(15,127) name = render type = java.lang.Boolean reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005finput_005f7.setRender(new Boolean(false));
+    // /WEB-INF/views/usuarios/create.jspx(15,127) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005finput_005f7.setField("foto_perfil");
     _jspx_th_field_005finput_005f7.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005finput_005f7);
@@ -334,15 +336,17 @@ public final class create_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005fsimple_005f0);
     _jspx_th_field_005fsimple_005f0.setJspContext(_jspx_page_context);
     _jspx_th_field_005fsimple_005f0.setParent(_jspx_parent);
-    // /WEB-INF/views/usuarios/create.jspx(16,206) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fsimple_005f0.setZ("uiIUDlsA3CvcG/iIt6oJNg1kH0I=");
-    // /WEB-INF/views/usuarios/create.jspx(16,206) name = messageCodeAttribute type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(16,205) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fsimple_005f0.setZ("user-managed");
+    // /WEB-INF/views/usuarios/create.jspx(16,205) name = messageCodeAttribute type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fsimple_005f0.setMessageCodeAttribute("Comentario");
-    // /WEB-INF/views/usuarios/create.jspx(16,206) name = messageCode type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(16,205) name = messageCode type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fsimple_005f0.setMessageCode("entity_reference_not_managed");
-    // /WEB-INF/views/usuarios/create.jspx(16,206) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(16,205) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fsimple_005f0.setId("c_com_umbook_server_domain_Usuario_comentarios");
-    // /WEB-INF/views/usuarios/create.jspx(16,206) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(16,205) name = render type = java.lang.Boolean reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fsimple_005f0.setRender(new Boolean(false));
+    // /WEB-INF/views/usuarios/create.jspx(16,205) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fsimple_005f0.setField("comentarios");
     _jspx_th_field_005fsimple_005f0.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005fsimple_005f0);
@@ -358,15 +362,17 @@ public final class create_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005fsimple_005f1);
     _jspx_th_field_005fsimple_005f1.setJspContext(_jspx_page_context);
     _jspx_th_field_005fsimple_005f1.setParent(_jspx_parent);
-    // /WEB-INF/views/usuarios/create.jspx(17,211) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fsimple_005f1.setZ("yIbOvtSPM/NNpxLB/YIf9n50iBw=");
-    // /WEB-INF/views/usuarios/create.jspx(17,211) name = messageCodeAttribute type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(17,210) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fsimple_005f1.setZ("user-managed");
+    // /WEB-INF/views/usuarios/create.jspx(17,210) name = messageCodeAttribute type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fsimple_005f1.setMessageCodeAttribute("Publicacion");
-    // /WEB-INF/views/usuarios/create.jspx(17,211) name = messageCode type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(17,210) name = messageCode type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fsimple_005f1.setMessageCode("entity_reference_not_managed");
-    // /WEB-INF/views/usuarios/create.jspx(17,211) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(17,210) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fsimple_005f1.setId("c_com_umbook_server_domain_Usuario_publicaciones");
-    // /WEB-INF/views/usuarios/create.jspx(17,211) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(17,210) name = render type = java.lang.Boolean reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fsimple_005f1.setRender(new Boolean(false));
+    // /WEB-INF/views/usuarios/create.jspx(17,210) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fsimple_005f1.setField("publicaciones");
     _jspx_th_field_005fsimple_005f1.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005fsimple_005f1);
@@ -382,15 +388,17 @@ public final class create_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005fsimple_005f2);
     _jspx_th_field_005fsimple_005f2.setJspContext(_jspx_page_context);
     _jspx_th_field_005fsimple_005f2.setParent(_jspx_parent);
-    // /WEB-INF/views/usuarios/create.jspx(18,195) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fsimple_005f2.setZ("QMriDG5SwpjQII7XlqW1Cu6PwIY=");
-    // /WEB-INF/views/usuarios/create.jspx(18,195) name = messageCodeAttribute type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(18,194) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fsimple_005f2.setZ("user-managed");
+    // /WEB-INF/views/usuarios/create.jspx(18,194) name = messageCodeAttribute type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fsimple_005f2.setMessageCodeAttribute("Amistad");
-    // /WEB-INF/views/usuarios/create.jspx(18,195) name = messageCode type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(18,194) name = messageCode type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fsimple_005f2.setMessageCode("entity_reference_not_managed");
-    // /WEB-INF/views/usuarios/create.jspx(18,195) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(18,194) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fsimple_005f2.setId("c_com_umbook_server_domain_Usuario_amistad");
-    // /WEB-INF/views/usuarios/create.jspx(18,195) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(18,194) name = render type = java.lang.Boolean reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fsimple_005f2.setRender(new Boolean(false));
+    // /WEB-INF/views/usuarios/create.jspx(18,194) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fsimple_005f2.setField("amistad");
     _jspx_th_field_005fsimple_005f2.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005fsimple_005f2);
@@ -406,15 +414,17 @@ public final class create_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005fsimple_005f3);
     _jspx_th_field_005fsimple_005f3.setJspContext(_jspx_page_context);
     _jspx_th_field_005fsimple_005f3.setParent(_jspx_parent);
-    // /WEB-INF/views/usuarios/create.jspx(19,234) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fsimple_005f3.setZ("XaVJe5gMsmUrdb5pI++/AAmSxiQ=");
-    // /WEB-INF/views/usuarios/create.jspx(19,234) name = messageCodeAttribute type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(19,233) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fsimple_005f3.setZ("user-managed");
+    // /WEB-INF/views/usuarios/create.jspx(19,233) name = messageCodeAttribute type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fsimple_005f3.setMessageCodeAttribute("Notificacion");
-    // /WEB-INF/views/usuarios/create.jspx(19,234) name = messageCode type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(19,233) name = messageCode type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fsimple_005f3.setMessageCode("entity_reference_not_managed");
-    // /WEB-INF/views/usuarios/create.jspx(19,234) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(19,233) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fsimple_005f3.setId("c_com_umbook_server_domain_Usuario_notificaciones_recibidas");
-    // /WEB-INF/views/usuarios/create.jspx(19,234) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(19,233) name = render type = java.lang.Boolean reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fsimple_005f3.setRender(new Boolean(false));
+    // /WEB-INF/views/usuarios/create.jspx(19,233) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fsimple_005f3.setField("notificaciones_recibidas");
     _jspx_th_field_005fsimple_005f3.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005fsimple_005f3);
@@ -430,15 +440,17 @@ public final class create_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005fsimple_005f4);
     _jspx_th_field_005fsimple_005f4.setJspContext(_jspx_page_context);
     _jspx_th_field_005fsimple_005f4.setParent(_jspx_parent);
-    // /WEB-INF/views/usuarios/create.jspx(20,220) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fsimple_005f4.setZ("uJECPN3M7WHGTLumfjCxu4rm25A=");
-    // /WEB-INF/views/usuarios/create.jspx(20,220) name = messageCodeAttribute type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(20,219) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fsimple_005f4.setZ("user-managed");
+    // /WEB-INF/views/usuarios/create.jspx(20,219) name = messageCodeAttribute type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fsimple_005f4.setMessageCodeAttribute("Denuncia");
-    // /WEB-INF/views/usuarios/create.jspx(20,220) name = messageCode type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(20,219) name = messageCode type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fsimple_005f4.setMessageCode("entity_reference_not_managed");
-    // /WEB-INF/views/usuarios/create.jspx(20,220) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(20,219) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fsimple_005f4.setId("c_com_umbook_server_domain_Usuario_denuncias_recibidas");
-    // /WEB-INF/views/usuarios/create.jspx(20,220) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(20,219) name = render type = java.lang.Boolean reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fsimple_005f4.setRender(new Boolean(false));
+    // /WEB-INF/views/usuarios/create.jspx(20,219) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fsimple_005f4.setField("denuncias_recibidas");
     _jspx_th_field_005fsimple_005f4.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005fsimple_005f4);
@@ -454,15 +466,17 @@ public final class create_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005fsimple_005f5);
     _jspx_th_field_005fsimple_005f5.setJspContext(_jspx_page_context);
     _jspx_th_field_005fsimple_005f5.setParent(_jspx_parent);
-    // /WEB-INF/views/usuarios/create.jspx(21,218) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fsimple_005f5.setZ("O0MT90cfhi04aUCBQ4fJYpolwL8=");
-    // /WEB-INF/views/usuarios/create.jspx(21,218) name = messageCodeAttribute type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(21,217) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fsimple_005f5.setZ("user-managed");
+    // /WEB-INF/views/usuarios/create.jspx(21,217) name = messageCodeAttribute type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fsimple_005f5.setMessageCodeAttribute("Denuncia");
-    // /WEB-INF/views/usuarios/create.jspx(21,218) name = messageCode type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(21,217) name = messageCode type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fsimple_005f5.setMessageCode("entity_reference_not_managed");
-    // /WEB-INF/views/usuarios/create.jspx(21,218) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(21,217) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fsimple_005f5.setId("c_com_umbook_server_domain_Usuario_denuncias_emitidas");
-    // /WEB-INF/views/usuarios/create.jspx(21,218) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(21,217) name = render type = java.lang.Boolean reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fsimple_005f5.setRender(new Boolean(false));
+    // /WEB-INF/views/usuarios/create.jspx(21,217) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fsimple_005f5.setField("denuncias_emitidas");
     _jspx_th_field_005fsimple_005f5.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005fsimple_005f5);
@@ -478,15 +492,15 @@ public final class create_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005fselect_005f2);
     _jspx_th_field_005fselect_005f2.setJspContext(_jspx_page_context);
     _jspx_th_field_005fselect_005f2.setParent(_jspx_parent);
-    // /WEB-INF/views/usuarios/create.jspx(22,169) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fselect_005f2.setZ("Lo9TreMh8lpje/jvaQqSxN77MvE=");
-    // /WEB-INF/views/usuarios/create.jspx(22,169) name = path type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(22,142) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fselect_005f2.setZ(" ");
+    // /WEB-INF/views/usuarios/create.jspx(22,142) name = path type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fselect_005f2.setPath("estadosusuarios");
-    // /WEB-INF/views/usuarios/create.jspx(22,169) name = items type = java.util.Collection reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(22,142) name = items type = java.util.Collection reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fselect_005f2.setItems((java.util.Collection) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${estadosusuarios}", java.util.Collection.class, (PageContext)_jspx_page_context, null, false));
-    // /WEB-INF/views/usuarios/create.jspx(22,169) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(22,142) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fselect_005f2.setId("c_com_umbook_server_domain_Usuario_estado");
-    // /WEB-INF/views/usuarios/create.jspx(22,169) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/usuarios/create.jspx(22,142) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fselect_005f2.setField("estado");
     _jspx_th_field_005fselect_005f2.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005fselect_005f2);

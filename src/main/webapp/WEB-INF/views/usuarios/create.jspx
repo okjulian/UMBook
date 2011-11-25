@@ -11,15 +11,15 @@
         <field:select field="sexo" id="c_com_umbook_server_domain_Usuario_sexo" items="${generoses}" path="generoses" z="zVHvRwOmdTdB2FZoH/+DwmbIHp0="/>
         <field:input field="pregunta_secreta" id="c_com_umbook_server_domain_Usuario_pregunta_secreta" required="true" z="EkA2zxx7CwZs3COmtm1rgKD5PI0="/>
         <field:input field="respuesta_secreta" id="c_com_umbook_server_domain_Usuario_respuesta_secreta" required="true" z="kYK9CxddWWuJxYhSn0FbatQIWq8="/>
-        <field:select field="rol" id="c_com_umbook_server_domain_Usuario_rol" items="${roleses}" path="roleses" z="SKBxQz9lxhsQRgTWLt0e/DCoXo0="/>
-        <field:input field="foto_perfil" id="c_com_umbook_server_domain_Usuario_foto_perfil" z="oD6HF+YPljVXiZmBLJECK81V/Pk="/>
-        <field:simple field="comentarios" id="c_com_umbook_server_domain_Usuario_comentarios" messageCode="entity_reference_not_managed" messageCodeAttribute="Comentario" z="uiIUDlsA3CvcG/iIt6oJNg1kH0I="/>
-        <field:simple field="publicaciones" id="c_com_umbook_server_domain_Usuario_publicaciones" messageCode="entity_reference_not_managed" messageCodeAttribute="Publicacion" z="yIbOvtSPM/NNpxLB/YIf9n50iBw="/>
-        <field:simple field="amistad" id="c_com_umbook_server_domain_Usuario_amistad" messageCode="entity_reference_not_managed" messageCodeAttribute="Amistad" z="QMriDG5SwpjQII7XlqW1Cu6PwIY="/>
-        <field:simple field="notificaciones_recibidas" id="c_com_umbook_server_domain_Usuario_notificaciones_recibidas" messageCode="entity_reference_not_managed" messageCodeAttribute="Notificacion" z="XaVJe5gMsmUrdb5pI++/AAmSxiQ="/>
-        <field:simple field="denuncias_recibidas" id="c_com_umbook_server_domain_Usuario_denuncias_recibidas" messageCode="entity_reference_not_managed" messageCodeAttribute="Denuncia" z="uJECPN3M7WHGTLumfjCxu4rm25A="/>
-        <field:simple field="denuncias_emitidas" id="c_com_umbook_server_domain_Usuario_denuncias_emitidas" messageCode="entity_reference_not_managed" messageCodeAttribute="Denuncia" z="O0MT90cfhi04aUCBQ4fJYpolwL8="/>
-        <field:select field="estado" id="c_com_umbook_server_domain_Usuario_estado" items="${estadosusuarios}" path="estadosusuarios" z="Lo9TreMh8lpje/jvaQqSxN77MvE="/>
+        <field:select field="rol" id="c_com_umbook_server_domain_Usuario_rol" items="${roleses}" path="roleses" z=""/>
+        <field:input field="foto_perfil" render="false" id="c_com_umbook_server_domain_Usuario_foto_perfil" z="user-managed"/>
+        <field:simple field="comentarios" render="false" id="c_com_umbook_server_domain_Usuario_comentarios" messageCode="entity_reference_not_managed" messageCodeAttribute="Comentario" z="user-managed"/>
+        <field:simple field="publicaciones" render="false" id="c_com_umbook_server_domain_Usuario_publicaciones" messageCode="entity_reference_not_managed" messageCodeAttribute="Publicacion" z="user-managed"/>
+        <field:simple field="amistad" render="false" id="c_com_umbook_server_domain_Usuario_amistad" messageCode="entity_reference_not_managed" messageCodeAttribute="Amistad" z="user-managed"/>
+        <field:simple field="notificaciones_recibidas" render="false" id="c_com_umbook_server_domain_Usuario_notificaciones_recibidas" messageCode="entity_reference_not_managed" messageCodeAttribute="Notificacion" z="user-managed"/>
+        <field:simple field="denuncias_recibidas" render="false" id="c_com_umbook_server_domain_Usuario_denuncias_recibidas" messageCode="entity_reference_not_managed" messageCodeAttribute="Denuncia" z="user-managed"/>
+        <field:simple field="denuncias_emitidas" render="false" id="c_com_umbook_server_domain_Usuario_denuncias_emitidas" messageCode="entity_reference_not_managed" messageCodeAttribute="Denuncia" z="user-managed"/>
+        <field:select field="estado" id="c_com_umbook_server_domain_Usuario_estado" items="${estadosusuarios}" path="estadosusuarios" z=" "/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_com_umbook_server_domain_Usuario" render="${not empty dependencies}" z="zSS+5dbZw+Sc8thw64k2o0KCu78="/>
 </div>

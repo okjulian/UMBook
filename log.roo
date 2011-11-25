@@ -217,3 +217,5 @@ focus --class ~.server.domain.Amistad
 finder list
 finder list --depth 2
 finder add findAmistadsByUsuario_1OrUsuario_2
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-11-25 12:19:21
+// [failed] hint
