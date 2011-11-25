@@ -5,8 +5,8 @@
     <form:create id="fc_com_umbook_server_domain_Album" modelAttribute="album" path="/albums" render="${empty dependencies}" z="T/nK9bO9IAAjMV7jx3ej9DhdgA8=">
         <field:input field="nombre" id="c_com_umbook_server_domain_Album_nombre" required="true" z="O2TYhVeStFVbgguzh7t1KivYtLw="/>
         <field:input field="descripcion" id="c_com_umbook_server_domain_Album_descripcion" z="v6Z5gSSzSUaUTe8HIqh0zKeRCvU="/>
-        <field:simple field="fotos" id="c_com_umbook_server_domain_Album_fotos" messageCode="entity_reference_not_managed" messageCodeAttribute="Foto" z="QlFKXnUXR58pZmLN5Knb6QjBCbI="/>
-        <field:simple field="comentarios" id="c_com_umbook_server_domain_Album_comentarios" messageCode="entity_reference_not_managed" messageCodeAttribute="Comentario Album" z="XJcpWGKalrMlSS7ebTtyTkKyNgs="/>
+        <field:simple field="fotos" render="false" id="c_com_umbook_server_domain_Album_fotos" messageCode="entity_reference_not_managed" messageCodeAttribute="Foto" z="user-managed"/>
+        <field:simple field="comentarios" render="false" id="c_com_umbook_server_domain_Album_comentarios" messageCode="entity_reference_not_managed" messageCodeAttribute="Comentario Album" z="user-managed"/>
         <field:select field="usuario" id="c_com_umbook_server_domain_Album_usuario" itemValue="id" items="${usuarios}" path="/usuarios" z="zrm739lkkUUxdUcDsYIGVMiREq0="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_com_umbook_server_domain_Album" render="${not empty dependencies}" z="3qqddXn5U0HbBoq1bbeah0yZ2to="/>

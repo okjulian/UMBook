@@ -10,7 +10,7 @@
         <field:input field="tipo_contenido" id="c_com_umbook_server_domain_Foto_tipo_contenido" render="false" z="user-managed"/>
         <field:input field="tamano" id="c_com_umbook_server_domain_Foto_tamano" render="false" validationMessageCode="field_invalid_integer" z="user-managed"/>
         <field:textarea field="url" id="c_com_umbook_server_domain_Foto_url" render="false" z="user-managed"/>
-        <field:simple field="comentarios" id="c_com_umbook_server_domain_Foto_comentarios" messageCode="entity_reference_not_managed" messageCodeAttribute="Comentario Foto" z="XastdqLPwRBt6fMDB54s37Rd55w="/>
+        <field:simple field="comentarios" render="false" id="c_com_umbook_server_domain_Foto_comentarios" messageCode="entity_reference_not_managed" messageCodeAttribute="Comentario Foto" z="user-managed"/>
         <field:select field="album" id="c_com_umbook_server_domain_Foto_album" itemValue="id" items="${albums}" path="/albums" z="LKVdypyDHxm/r+MzV0hduRsNli4="/>
     </form:multi>
     <form:dependency dependencies="${dependencies}" id="d_com_umbook_server_domain_Foto" render="${not empty dependencies}" z="2yImRDNe1u1/kwvFUZHsBHYbe9I="/>
