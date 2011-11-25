@@ -98,6 +98,8 @@ static {
         return;
       if (_jspx_meth_util_005flanguage_005f0(_jspx_page_context))
         return;
+      if (_jspx_meth_util_005flanguage_005f1(_jspx_page_context))
+        return;
       out.write("</span>");
       if (_jspx_meth_util_005ftheme_005f0(_jspx_page_context))
         return;
@@ -372,6 +374,23 @@ static {
     return false;
   }
 
+  private boolean _jspx_meth_util_005flanguage_005f1(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  util:language
+    org.apache.jsp.tag.web.util.language_tagx _jspx_th_util_005flanguage_005f1 = new org.apache.jsp.tag.web.util.language_tagx();
+    org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_util_005flanguage_005f1);
+    _jspx_th_util_005flanguage_005f1.setJspContext(_jspx_page_context);
+    // /WEB-INF/views/footer.jspx(27,49) name = locale type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_util_005flanguage_005f1.setLocale("es");
+    // /WEB-INF/views/footer.jspx(27,49) name = label type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_util_005flanguage_005f1.setLabel("Espanol");
+    _jspx_th_util_005flanguage_005f1.doTag();
+    org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_util_005flanguage_005f1);
+    return false;
+  }
+
   private boolean _jspx_meth_util_005ftheme_005f0(PageContext _jspx_page_context)
           throws Throwable {
     PageContext pageContext = _jspx_page_context;
@@ -393,9 +412,9 @@ static {
     org.springframework.web.servlet.tags.UrlTag _jspx_th_spring_005furl_005f2 = (org.springframework.web.servlet.tags.UrlTag) _005fjspx_005ftagPool_005fspring_005furl_0026_005fvar_005fvalue_005fnobody.get(org.springframework.web.servlet.tags.UrlTag.class);
     _jspx_th_spring_005furl_005f2.setPageContext(_jspx_page_context);
     _jspx_th_spring_005furl_005f2.setParent(null);
-    // /WEB-INF/views/footer.jspx(30,75) name = var type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/views/footer.jspx(31,75) name = var type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_spring_005furl_005f2.setVar("logo");
-    // /WEB-INF/views/footer.jspx(30,75) name = value type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/views/footer.jspx(31,75) name = value type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_spring_005furl_005f2.setValue("/resources/images/springsource-logo.png");
     int[] _jspx_push_body_count_spring_005furl_005f2 = new int[] { 0 };
     try {
@@ -422,11 +441,11 @@ static {
     org.springframework.web.servlet.tags.MessageTag _jspx_th_spring_005fmessage_005f3 = (org.springframework.web.servlet.tags.MessageTag) _005fjspx_005ftagPool_005fspring_005fmessage_0026_005fvar_005fhtmlEscape_005fcode_005fnobody.get(org.springframework.web.servlet.tags.MessageTag.class);
     _jspx_th_spring_005fmessage_005f3.setPageContext(_jspx_page_context);
     _jspx_th_spring_005fmessage_005f3.setParent(null);
-    // /WEB-INF/views/footer.jspx(31,79) name = var type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/views/footer.jspx(32,79) name = var type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_spring_005fmessage_005f3.setVar("sponsored");
-    // /WEB-INF/views/footer.jspx(31,79) name = htmlEscape type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/views/footer.jspx(32,79) name = htmlEscape type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_spring_005fmessage_005f3.setHtmlEscape("false");
-    // /WEB-INF/views/footer.jspx(31,79) name = code type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/views/footer.jspx(32,79) name = code type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_spring_005fmessage_005f3.setCode("global_sponsored");
     int[] _jspx_push_body_count_spring_005fmessage_005f3 = new int[] { 0 };
     try {
